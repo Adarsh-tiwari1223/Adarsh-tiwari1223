@@ -1,205 +1,205 @@
-<!-- Animated Header -->
+<!-- HEADER -->
+<h1 align="center">Adarsh Tiwari</h1>
+
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3500&pause=1000&color=00A6FF&center=true&vCenter=true&width=900&lines=Hi+I'm+Adarsh+Tiwari;Quality+Assurance+Engineer;Manual+Testing+%7C+Automation+Testing;Selenium+%7C+PyTest+%7C+Python;Building+Reliable+Software+Through+Testing" />
+Quality Assurance Engineer • Manual Testing • Automation (Selenium + PyTest)
 </p>
 
-<h3 align="center">
-Quality Assurance Engineer | Manual Testing | Automation | Python
-</h3>
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3500&pause=1000&color=00BFFF&center=true&vCenter=true&width=800&lines=Quality+Assurance+Engineer;Manual+Testing+%7C+Automation+Testing;Selenium+%7C+Python+%7C+PyTest;Workflow+Validation+%7C+Defect+Analysis" />
+</p>
 
 ---
 
-# About Me
+# QA Profile Overview
 
-I am a **Quality Assurance Engineer focused on delivering reliable, defect-free software through structured testing practices.**
+I am a **Quality Assurance Engineer focused on validating enterprise software systems through structured testing practices.**
 
-My experience includes **functional testing, regression validation, workflow testing, and early-stage automation using Selenium and PyTest.**
+My work revolves around ensuring **business workflows, system reliability, and data accuracy** through disciplined test execution and clear defect reporting.
 
-I specialize in validating **CRM and HRMS enterprise systems**, ensuring that business workflows operate correctly across modules.
+I specialize in testing **CRM and HRMS systems**, validating modules such as:
 
-Core approach:
+• Employee Management  
+• Lead & Deal workflows  
+• Role & Access hierarchy  
+• Document management  
+• Approval flows  
 
-• Structured test design  
-• Reproducible defect reporting  
-• Data-driven validation  
-• Clean QA documentation  
+My testing approach prioritizes:
 
-I strongly believe that **quality is engineered through discipline, clarity, and measurable validation.**
+• Reproducible defect identification  
+• Structured test documentation  
+• Workflow-based validation  
+• Data-driven testing strategies  
 
 ---
 
-# Core QA Competencies
+# QA Testing Philosophy
 
-Manual Testing  
+Testing is not simply executing test cases.
+
+It is about **understanding how the system behaves under different conditions and validating that every workflow aligns with business expectations.**
+
+My focus areas include:
+
+• Functional validation of business modules  
+• Regression stability across releases  
+• UI behaviour validation  
+• Data consistency verification  
+• Defect traceability  
+
+Every defect reported should be:
+
+• Reproducible  
+• Clearly documented  
+• Root-cause oriented  
+
+---
+
+# QA Skill Set
+
+## Manual Testing
+
 Functional Testing  
 Regression Testing  
+Smoke Testing  
 UI Validation  
-Test Case Design  
+Test Scenario Design  
 Requirement Analysis  
-Defect Reporting  
 
-Automation Foundations
+---
 
-Selenium WebDriver  
+## Automation Testing
+
 Python  
+Selenium WebDriver  
 PyTest  
-Page Object Model  
 
-Testing Strategy
+Automation concepts I work with:
 
-Data Driven Testing  
-JSON Test Data  
-Faker Dynamic Data  
-
-QA Process
-
-SDLC  
-STLC  
-Workflow Validation  
-Test Documentation  
+• Page Object Model  
+• Fixtures and Hooks  
+• Data Driven Testing  
+• Assertion Strategies  
 
 ---
 
-# Tech Stack
+# Testing Tools & Technology
 
-### Languages
-<p>
-<img src="https://skillicons.dev/icons?i=python,sql" />
-</p>
-
-### Automation & Testing
-<p>
-<img src="https://skillicons.dev/icons?i=selenium" />
-<img src="https://img.shields.io/badge/PyTest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white"/>
-</p>
-
-### Tools
-<p>
-<img src="https://skillicons.dev/icons?i=vscode,git,github" />
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-</p>
-
-### QA Utilities
-JSON  
-Faker  
-Chrome DevTools  
+| Category | Tools |
+|--------|------|
+Programming | Python |
+Automation | Selenium WebDriver, PyTest |
+API Testing | Postman |
+Test Data | JSON, Faker |
+Version Control | Git, GitHub |
+Debugging | Chrome DevTools |
+Defect Tracking | Jira / Spreadsheet logs |
 
 ---
 
-# Featured Projects
+# QA Project Work
 
-## Selenium + PyTest Automation Framework
+## Selenium PyTest Automation Framework
 
-A modular automation testing framework designed with maintainability and scalability in mind.
-
-Key Features
+Developing a modular automation framework that focuses on:
 
 • Page Object Model architecture  
+• JSON based test data  
+• Dynamic test data generation with Faker  
 • PyTest fixtures and hooks  
-• JSON-based Data Driven Testing  
-• Faker dynamic data generation  
-• Structured assertions and reporting  
+• Structured assertions  
 
-Repository: *Coming Soon*
+Purpose:  
+Improve regression efficiency and reduce manual repetitive testing.
+
+Repository: Coming Soon
 
 ---
 
-## HRMS Testing – Manual + Automation
+## HRMS System Testing
 
-Enterprise module validation including:
+Modules tested:
 
 Employee Management  
+Attendance  
 Leave Management  
-Attendance System  
-Document Workflows  
+Document Workflow  
 
-Deliverables
+QA Activities performed:
 
-• Structured test case suites  
-• Regression execution set  
-• Sample PyTest automation scripts  
-
-Repository: *Coming Soon*
+• Test case design  
+• Regression execution  
+• Workflow validation  
+• Defect reporting  
 
 ---
 
-## CRM Testing – Heritage Compass
+## CRM System Testing
 
-CRM workflow validation covering:
+Modules validated:
 
-Lead Management  
-Deal Processing  
-Approval Flows  
-Role & Access Control  
-Hierarchy Validation  
+Lead lifecycle  
+Deal creation workflows  
+Approval hierarchy  
+User roles and access management  
 
-Artifacts
+Artifacts maintained:
 
-• Defect logs  
 • Test case matrices  
-• UI validation documentation  
-
-Repository: *Coming Soon*
-
----
-
-# Currently Working On
-
-Building a **complete Selenium + PyTest automation framework**
-
-Strengthening **Python OOP for automation utilities**
-
-Designing **reusable QA documentation templates**
-
-Preparing **open-source QA testing resources**
+• Defect logs  
+• UI validation sheets  
 
 ---
 
-# GitHub Analytics
+# Current Learning Focus
+
+Expanding my automation capabilities by building:
+
+• Full Selenium + PyTest automation frameworks  
+• Reusable testing utilities in Python  
+• Data-driven testing strategies  
+• QA documentation templates  
+
+---
+
+# GitHub Activity
 
 <p align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
 
-<img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight"/>
 
 </p>
 
 ---
 
-# Contribution Graph
+# Professional QA Mindset
 
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night"/>
-</p>
+Quality Assurance requires **discipline, structured thinking, and attention to detail.**
+
+A strong QA engineer ensures that:
+
+• workflows behave correctly  
+• data remains consistent  
+• defects are discovered early  
+• releases remain stable  
+
+Testing is the **safety layer between software and its users.**
 
 ---
 
 # Connect With Me
 
 LinkedIn  
-https://www.linkedin.com/in/adarsh-tiwari-qa
+www.linkedin.com/in/adarsh-tiwari-qa
 
 Email  
 tiwarishrey0@gmail.com
 
 ---
 
-# Professional Philosophy
-
-Quality Assurance is not only about finding defects.
-
-It is about **protecting user experience, validating workflows, and ensuring business reliability.**
-
-Every test case, defect report, and execution log should be:
-
-• Clear  
-• Reproducible  
-• Measurable  
-• Valuable  
-
----
-
 <p align="center">
-Always Learning • Always Improving • Always Testing
+Focused on building reliable software through structured testing.
 </p>
