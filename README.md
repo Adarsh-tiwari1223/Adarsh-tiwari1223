@@ -1,101 +1,139 @@
-<h1 align="center">Adarsh Tiwari</h1>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3500&pause=1000&color=00D4FF&center=true&vCenter=true&width=850&lines=Quality+Assurance+Engineer;Manual+Testing+%7C+Automation+Testing;Selenium+%7C+Python+%7C+PyTest;Workflow+Validation+%7C+Defect+Analysis;Testing+CRM+%26+HRMS+Enterprise+Systems" alt="Typing SVG" />
-</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a3d6b,100:00d4ff&height=120&section=header&animation=fadeIn"/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Role-QA%20Engineer-00d4ff?style=flat-square&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Focus-Manual%20%26%20Automation-00ff88?style=flat-square&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Domain-CRM%20%26%20HRMS-ff6b35?style=flat-square&labelColor=0d1117" />
-</p>
+# Adarsh Tiwari
 
----
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3500&pause=1000&color=00D4FF&center=true&vCenter=true&width=850&lines=Quality+Assurance+Engineer;Manual+Testing+%7C+Automation+Testing;Selenium+%7C+Python+%7C+PyTest;Workflow+Validation+%7C+Defect+Analysis;Testing+CRM+%26+HRMS+Enterprise+Systems" />
 
-## `01` · QA Profile
+<br/>
+
+![Role](https://img.shields.io/badge/▸%20QA%20Engineer-0d1117?style=for-the-badge&labelColor=0d1117&color=00d4ff)
+![Focus](https://img.shields.io/badge/▸%20Manual%20%26%20Automation-0d1117?style=for-the-badge&labelColor=0d1117&color=00ff88)
+![Domain](https://img.shields.io/badge/▸%20CRM%20%26%20HRMS-0d1117?style=for-the-badge&labelColor=0d1117&color=ff6b35)
+
+</div>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"/>
+
+<br/>
+
+## <img src="https://img.shields.io/badge/01-0d1117?style=flat-square&color=00d4ff&labelColor=0d1117"/> &nbsp; QA Profile
+
+```yaml
+name      : Adarsh Tiwari
+role      : Quality Assurance Engineer
+focus     : Enterprise Software Validation
+domains   : CRM · HRMS
+approach  : Structured · Disciplined · Traceable
+```
 
 Quality Assurance Engineer focused on validating **enterprise software systems** through structured testing methodologies and disciplined execution.
 
-My experience centers on **functional validation, regression stability, and workflow testing** across CRM and HRMS applications. I work closely with system behavior, test documentation, and defect reproducibility to ensure releases maintain functional reliability and business integrity.
+My experience centers on **functional validation, regression stability, and workflow testing** across CRM and HRMS applications — ensuring releases maintain functional reliability and business integrity.
 
-**Core approach:**
+<br/>
+
+## <img src="https://img.shields.io/badge/02-0d1117?style=flat-square&color=00d4ff&labelColor=0d1117"/> &nbsp; Testing Mindset
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### What I Validate
+
+| | Area |
+|--|------|
+| 🔄 | Business Workflows |
+| 🔒 | Role & Permission Access |
+| 🖥️ | UI Consistency & Interaction |
+| 🗄️ | Data Integrity Across Processes |
+| 🔁 | Regression Stability Across Builds |
+
+</td>
+<td width="50%" valign="top">
+
+### How I Work
 
 ```
-✦ Structured test design          ✦ Accurate defect reporting
-✦ Workflow-driven validation      ✦ Traceable test documentation
-✦ Maintainable automation         
+✦ Structured test design
+✦ Accurate defect reporting
+✦ Workflow-driven validation
+✦ Traceable test documentation
+✦ Maintainable automation
 ```
 
----
+</td>
+</tr>
+</table>
 
-## `02` · Testing Mindset
+> **Testing is the quality control layer between engineering and real users.**
+> Every defect should be clear, reproducible, and traceable to a business impact.
 
-> Quality Assurance is not simply about identifying bugs.
-> It is about **understanding system behavior, validating business workflows, and ensuring software performs reliably under real operational scenarios.**
+<br/>
 
-Every defect should be **clear, reproducible, and traceable to a business impact.**
+## <img src="https://img.shields.io/badge/03-0d1117?style=flat-square&color=00d4ff&labelColor=0d1117"/> &nbsp; Core QA Competencies
 
-My testing approach validates:
+<table>
+<tr><td><b>Manual Testing</b></td><td><b>Automation Foundations</b></td></tr>
+<tr>
+<td valign="top">
 
-| Area | What I Validate |
-|------|----------------|
-| 🔄 Business Workflows | End-to-end module behavior across operational paths |
-| 🔒 Access Control | Role and permission-based access behavior |
-| 🖥️ UI Consistency | Interaction logic and visual integrity across builds |
-| 🗄️ Data Integrity | Clean, consistent data flow across all processes |
-| 🔁 Regression Stability | System behavior stability across build cycles |
+![Functional](https://img.shields.io/badge/Functional_Testing-161b22?style=flat-square&labelColor=161b22)
+![Regression](https://img.shields.io/badge/Regression_Testing-161b22?style=flat-square&labelColor=161b22)
+![Smoke](https://img.shields.io/badge/Smoke_Testing-161b22?style=flat-square&labelColor=161b22)
+![UI](https://img.shields.io/badge/UI_Validation-161b22?style=flat-square&labelColor=161b22)
+![TestCase](https://img.shields.io/badge/Test_Case_Design-161b22?style=flat-square&labelColor=161b22)
+![Req](https://img.shields.io/badge/Requirement_Analysis-161b22?style=flat-square&labelColor=161b22)
+![Workflow](https://img.shields.io/badge/Workflow_Validation-161b22?style=flat-square&labelColor=161b22)
 
----
+</td>
+<td valign="top">
 
-## `03` · Core QA Competencies
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white&labelColor=0d1117)
+![PyTest](https://img.shields.io/badge/PyTest-0A9EDC?style=flat-square&logo=pytest&logoColor=white&labelColor=0d1117)
 
-### Manual Testing
+```
+• Page Object Model structure
+• PyTest fixtures and hooks
+• Data-driven testing
+• Automated regression flows
+```
 
-![Functional](https://img.shields.io/badge/Functional_Testing-0d1117?style=flat-square&logo=checkmarx&logoColor=00d4ff)
-![Regression](https://img.shields.io/badge/Regression_Testing-0d1117?style=flat-square&logo=checkmarx&logoColor=00d4ff)
-![Smoke](https://img.shields.io/badge/Smoke_Testing-0d1117?style=flat-square&logo=checkmarx&logoColor=00d4ff)
-![UI](https://img.shields.io/badge/UI_Validation-0d1117?style=flat-square&logo=checkmarx&logoColor=00d4ff)
-![Test Case](https://img.shields.io/badge/Test_Case_Design-0d1117?style=flat-square&logo=checkmarx&logoColor=00d4ff)
-![Req](https://img.shields.io/badge/Requirement_Analysis-0d1117?style=flat-square&logo=checkmarx&logoColor=00d4ff)
-![Workflow](https://img.shields.io/badge/Workflow_Validation-0d1117?style=flat-square&logo=checkmarx&logoColor=00d4ff)
+</td>
+</tr>
+</table>
 
-### Automation Foundations
+<br/>
 
-![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00ff88)
-![Selenium](https://img.shields.io/badge/Selenium_WebDriver-0d1117?style=flat-square&logo=selenium&logoColor=00ff88)
-![PyTest](https://img.shields.io/badge/PyTest-0d1117?style=flat-square&logo=pytest&logoColor=00ff88)
+## <img src="https://img.shields.io/badge/04-0d1117?style=flat-square&color=00d4ff&labelColor=0d1117"/> &nbsp; Tools & Technology
 
-**Current automation focus:**
-- Page Object Model structure
-- PyTest fixtures and hooks
-- Data-driven testing
-- Automated regression flows
-
----
-
-## `04` · Tools & Technology
+<div align="center">
 
 | Category | Technology |
-|----------|-----------|
-| 🐍 Programming | Python |
-| 🤖 Automation | Selenium WebDriver · PyTest |
-| 📡 API Testing | Postman |
-| 🗂️ Test Data | JSON · Faker |
-| 🔀 Version Control | Git · GitHub |
-| 🔍 Debugging | Chrome DevTools |
-| 🐛 Defect Tracking | Jira · Spreadsheet Logs |
+|:--------:|:----------:|
+| 🐍 Programming | ![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00ff88) |
+| 🤖 Automation | ![Selenium](https://img.shields.io/badge/Selenium-0d1117?style=flat-square&logo=selenium&logoColor=00ff88) ![PyTest](https://img.shields.io/badge/PyTest-0d1117?style=flat-square&logo=pytest&logoColor=00ff88) |
+| 📡 API Testing | ![Postman](https://img.shields.io/badge/Postman-0d1117?style=flat-square&logo=postman&logoColor=FF6C37) |
+| 🗂️ Test Data | ![JSON](https://img.shields.io/badge/JSON-0d1117?style=flat-square&logo=json&logoColor=white) ![Faker](https://img.shields.io/badge/Faker-0d1117?style=flat-square&logoColor=white) |
+| 🔀 Version Control | ![Git](https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=F05032) ![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white) |
+| 🔍 Debugging | ![Chrome DevTools](https://img.shields.io/badge/Chrome_DevTools-0d1117?style=flat-square&logo=googlechrome&logoColor=4285F4) |
+| 🐛 Defect Tracking | ![Jira](https://img.shields.io/badge/Jira-0d1117?style=flat-square&logo=jira&logoColor=0052CC) |
 
----
+</div>
 
-## `05` · QA Project Work
+<br/>
+
+## <img src="https://img.shields.io/badge/05-0d1117?style=flat-square&color=00d4ff&labelColor=0d1117"/> &nbsp; QA Project Work
 
 <details>
-<summary><b>🤖 Selenium · PyTest Automation Framework</b></summary>
-<br>
+<summary><b>🤖 &nbsp; Selenium · PyTest Automation Framework</b></summary>
+<br/>
 
-Developing a modular automation framework focused on maintainability and scalability. Purpose: improve regression coverage and reduce repetitive manual validation.
-
-**Key components:**
+> Modular automation framework focused on maintainability and scalability — improving regression coverage and reducing repetitive manual validation.
 
 | Component | Detail |
 |-----------|--------|
@@ -108,92 +146,84 @@ Developing a modular automation framework focused on maintainability and scalabi
 </details>
 
 <details>
-<summary><b>👥 HRMS System Testing</b></summary>
-<br>
+<summary><b>👥 &nbsp; HRMS System Testing</b></summary>
+<br/>
 
-Full-cycle QA across core HR modules.
+> Full-cycle QA across core HR modules with structured test execution and defect documentation.
 
 **Modules validated:**
 
-`Employee Management` · `Leave Management` · `Attendance Tracking` · `Document Workflow`
+![EM](https://img.shields.io/badge/Employee_Management-161b22?style=flat-square&labelColor=161b22)
+![LM](https://img.shields.io/badge/Leave_Management-161b22?style=flat-square&labelColor=161b22)
+![AT](https://img.shields.io/badge/Attendance_Tracking-161b22?style=flat-square&labelColor=161b22)
+![DW](https://img.shields.io/badge/Document_Workflow-161b22?style=flat-square&labelColor=161b22)
 
-**QA activities:**
-- Test scenario creation
-- Execution of regression suites
-- Workflow validation
-- Defect documentation
+**QA activities:** test scenario creation · regression suite execution · workflow validation · defect documentation
 
 </details>
 
 <details>
-<summary><b>📊 CRM Workflow Testing</b></summary>
-<br>
+<summary><b>📊 &nbsp; CRM Workflow Testing</b></summary>
+<br/>
 
-Validated lead lifecycle, deal approval flows, and role-based access permissions.
+> Validated lead lifecycle, deal approval flows, and role-based access permissions with full artifact maintenance.
 
 **Modules validated:**
 
-`Lead Lifecycle Management` · `Deal Creation & Approval Flows` · `Role Hierarchy & Access Permissions` · `User-Based Workflow Restrictions`
+![LL](https://img.shields.io/badge/Lead_Lifecycle-161b22?style=flat-square&labelColor=161b22)
+![DA](https://img.shields.io/badge/Deal_Approvals-161b22?style=flat-square&labelColor=161b22)
+![RH](https://img.shields.io/badge/Role_Hierarchy-161b22?style=flat-square&labelColor=161b22)
+![UW](https://img.shields.io/badge/Workflow_Restrictions-161b22?style=flat-square&labelColor=161b22)
 
-**Artifacts maintained:**
-- Structured test cases
-- Defect tracking logs
-- UI validation documentation
+**Artifacts:** structured test cases · defect tracking logs · UI validation documentation
 
 </details>
 
----
+<br/>
 
-## `06` · Current Focus
+## <img src="https://img.shields.io/badge/06-0d1117?style=flat-square&color=00d4ff&labelColor=0d1117"/> &nbsp; Current Focus
 
 ```python
-current_focus = [
-    "Selenium + PyTest framework design",
-    "Python-based automation utilities",
-    "Reusable QA documentation templates",
-    "Scalable regression testing strategies",
-]
+current_focus = {
+    "framework"     : "Selenium + PyTest framework design",
+    "language"      : "Python-based automation utilities",
+    "documentation" : "Reusable QA documentation templates",
+    "strategy"      : "Scalable regression testing strategies",
+}
 ```
 
----
+<br/>
 
-## `07` · GitHub Activity
+## <img src="https://img.shields.io/badge/07-0d1117?style=flat-square&color=00d4ff&labelColor=0d1117"/> &nbsp; Professional Principle
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=00ff88&text_color=c9d1d9" />
-  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0d1117&ring=00d4ff&fire=ff6b35&currStreakLabel=00d4ff" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9" />
-</p>
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║   Effective testing requires clarity, discipline,                    ║
+║   and structured thinking.                                           ║
+║                                                                      ║
+║   Testing is the quality control layer                               ║
+║   between engineering and real users.                                ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
----
+</div>
 
-## `08` · Professional Principle
+<br/>
 
-> Effective testing requires **clarity, discipline, and structured thinking.**
->
-> Testing is the **quality control layer between engineering and real users.**
->
-> A good QA engineer ensures that system workflows behave as expected, data integrity remains intact, defects are discovered early, and releases remain stable.
+## <img src="https://img.shields.io/badge/08-0d1117?style=flat-square&color=00d4ff&labelColor=0d1117"/> &nbsp; Connect
 
----
+<div align="center">
 
-## `09` · Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-adarsh--tiwari--qa-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117)](https://www.linkedin.com/in/adarsh-tiwari-qa)
+&nbsp;
+[![Email](https://img.shields.io/badge/Email-tiwarishrey0@gmail.com-00d4ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:tiwarishrey0@gmail.com)
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/adarsh-tiwari-qa">
-    <img src="https://img.shields.io/badge/LinkedIn-adarsh--tiwari--qa-0077B5?style=flat-square&logo=linkedin&logoColor=white&labelColor=0d1117" />
-  </a>
-  &nbsp;
-  <a href="mailto:tiwarishrey0@gmail.com">
-    <img src="https://img.shields.io/badge/Email-tiwarishrey0@gmail.com-00d4ff?style=flat-square&logo=gmail&logoColor=white&labelColor=0d1117" />
-  </a>
-</p>
+</div>
 
----
+<br/>
 
-<p align="center">
-  <i>Focused on building reliable systems through structured testing.</i>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:0a3d6b,100:0d1117&height=100&section=footer"/>
