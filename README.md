@@ -6,13 +6,7 @@
 
 <div align="center">
 
-```
-╭─────────────────────────────────────────────────────────────────────────────╮
-│                                                                             │
-│         "Quality is not an act — it is a habit of structured thinking."    │
-│                                                                             │
-╰─────────────────────────────────────────────────────────────────────────────╯
-```
+         "Quality is not an act — it is a habit of structured thinking."
 
 </div>
 
