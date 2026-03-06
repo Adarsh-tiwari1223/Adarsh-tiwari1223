@@ -1,5 +1,5 @@
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=ADARSH%20TIWARI&fontSize=65&fontColor=ffffff&fontAlignY=38&desc=Quality%20Assurance%20Engineer&descAlignY=58&descSize=20&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0a1628,60:0d2137,100:1a3a5c&height=200&section=header&text=ADARSH%20TIWARI&fontSize=65&fontColor=58A6FF&fontAlignY=38&desc=Quality%20Assurance%20Engineer&descAlignY=58&descSize=20&descColor=8b949e&animation=fadeIn"/>
 </div>
 
 <br/>
@@ -18,7 +18,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&repeat=true&width=700&lines=🔍+Validating+Enterprise+Software+Systems;🧪+Selenium+·+Python+·+PyTest+Automation;📋+CRM+%26+HRMS+Workflow+Testing;🐛+Structured+Defect+Analysis+%26+Reporting;⚙️+Page+Object+Model+Framework+Design" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&repeat=true&width=700&lines=🔍+Validating+Enterprise+Software+Systems;🧪+Selenium+·+Python+·+PyTest+Automation;📋+CRM+%26+HRMS+Workflow+Testing;🐛+Structured+Defect+Analysis+%26+Reporting;⚙️+Page+Object+Model+Framework+Design" />
 
 </div>
 
@@ -270,7 +270,7 @@ AUTOMATION
 <br/>
 
 ```python
-# Q1 2025 — Building Automation Depth
+# 2025 — Building Automation Depth
 
 roadmap = {
     "now": [
@@ -328,6 +328,6 @@ Every release I touch is a release that works.
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a3a5c,30:0d2137,60:0a1628,100:0d1117&height=120&section=footer&animation=fadeIn"/>
 
 </div>
