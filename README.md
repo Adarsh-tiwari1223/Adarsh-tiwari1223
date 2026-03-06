@@ -1,99 +1,205 @@
-<h1 align="center">Hi, I'm Adarsh Tiwari 👋</h1>
-<h3 align="center">Quality Assurance Engineer | Manual & Automation Testing</h3>
+<!-- Animated Header -->
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3500&pause=1000&color=00A6FF&center=true&vCenter=true&width=900&lines=Hi+I'm+Adarsh+Tiwari;Quality+Assurance+Engineer;Manual+Testing+%7C+Automation+Testing;Selenium+%7C+PyTest+%7C+Python;Building+Reliable+Software+Through+Testing" />
+</p>
+
+<h3 align="center">
+Quality Assurance Engineer | Manual Testing | Automation | Python
+</h3>
 
 ---
 
-## 🔍 About Me
-I’m a Quality Assurance Engineer specializing in **manual testing, functional workflows, regression execution, and early-stage Selenium–PyTest automation**.  
-My work focuses on **structured test design, defect reproducibility, data-driven testing**, and validating enterprise-grade modules across **CRM/HRMS systems**.
+# About Me
 
-I bring a **detail-oriented, documentation-driven, and data-focused QA mindset**, well-suited for Analytics / KPO / Research-driven environments.
+I am a **Quality Assurance Engineer focused on delivering reliable, defect-free software through structured testing practices.**
 
----
+My experience includes **functional testing, regression validation, workflow testing, and early-stage automation using Selenium and PyTest.**
 
-## 🧪 Core Competencies
-- Manual Testing (Functional, UI, Regression, Smoke)  
-- Test Case Design, Requirement Analysis, Scenario Review  
-- Selenium + Python + PyTest (Foundational Automation)  
-- Data-Driven Testing (JSON, Faker)  
-- Test Data Management & Workflow Validation  
-- SDLC / STLC  
-- QA Documentation, Execution Logs, Defect Reporting  
-- Basic API Testing (Postman)  
-- Git & GitHub Version Control  
+I specialize in validating **CRM and HRMS enterprise systems**, ensuring that business workflows operate correctly across modules.
+
+Core approach:
+
+• Structured test design  
+• Reproducible defect reporting  
+• Data-driven validation  
+• Clean QA documentation  
+
+I strongly believe that **quality is engineered through discipline, clarity, and measurable validation.**
 
 ---
 
-## ⚙️ Tech Stack
-**Languages:** Python, SQL (basic)  
-**Automation:** Selenium WebDriver, PyTest, POM Basics  
-**Tools:** VS Code, Chrome DevTools, Postman  
-**Test Data:** JSON, Faker  
-**Version Control:** Git, GitHub  
-**Defect Tracking:** Jira / Spreadsheet-based  
+# Core QA Competencies
+
+Manual Testing  
+Functional Testing  
+Regression Testing  
+UI Validation  
+Test Case Design  
+Requirement Analysis  
+Defect Reporting  
+
+Automation Foundations
+
+Selenium WebDriver  
+Python  
+PyTest  
+Page Object Model  
+
+Testing Strategy
+
+Data Driven Testing  
+JSON Test Data  
+Faker Dynamic Data  
+
+QA Process
+
+SDLC  
+STLC  
+Workflow Validation  
+Test Documentation  
 
 ---
 
-## 📂 Featured Projects
+# Tech Stack
 
-### 🔹 Selenium–PyTest Automation Framework  
-A clean, modular test automation framework built with:
-- Page Object Model (POM)  
-- Fixtures & Hooks  
-- JSON-based DDT  
-- Faker dynamic data generation  
-- Assertions & reporting  
+### Languages
+<p>
+<img src="https://skillicons.dev/icons?i=python,sql" />
+</p>
 
-**Repo:** *Coming soon*  
+### Automation & Testing
+<p>
+<img src="https://skillicons.dev/icons?i=selenium" />
+<img src="https://img.shields.io/badge/PyTest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white"/>
+</p>
 
----
+### Tools
+<p>
+<img src="https://skillicons.dev/icons?i=vscode,git,github" />
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+</p>
 
-### 🔹 HRMS Testing (Manual + Automation)
-Structured test cases and automation for:
-- Employee Master  
-- Leave  
-- Attendance  
-- Document workflows  
-
-Includes:  
-- Regression suite  
-- Test data strategy  
-- Sample PyTest scripts  
-
-**Repo:** *Coming soon*  
+### QA Utilities
+JSON  
+Faker  
+Chrome DevTools  
 
 ---
 
-### 🔹 CRM Testing – Heritage Compass  
-Validated modules like Leads, Deals, Approvals, Hierarchy, Roles & Access.
+# Featured Projects
 
-Includes:  
-- Defect logs  
-- Test cases  
-- UI validation sheets  
+## Selenium + PyTest Automation Framework
 
-**Repo:** *Coming soon*  
+A modular automation testing framework designed with maintainability and scalability in mind.
 
----
+Key Features
 
-## 📈 What I’m Working On
-- Building a full **Selenium–PyTest automation framework** from scratch  
-- Enhancing my Python OOP + automation utilities  
-- Creating reusable QA templates (test cases, bug reports, logs)  
-- Preparing open-source QA contributions  
+• Page Object Model architecture  
+• PyTest fixtures and hooks  
+• JSON-based Data Driven Testing  
+• Faker dynamic data generation  
+• Structured assertions and reporting  
+
+Repository: *Coming Soon*
 
 ---
 
-## 📬 Connect With Me
-**LinkedIn:** www.linkedin.com/in/adarsh-tiwari-qa  
-**Email:** tiwarishrey0@gmail.com  
+## HRMS Testing – Manual + Automation
+
+Enterprise module validation including:
+
+Employee Management  
+Leave Management  
+Attendance System  
+Document Workflows  
+
+Deliverables
+
+• Structured test case suites  
+• Regression execution set  
+• Sample PyTest automation scripts  
+
+Repository: *Coming Soon*
 
 ---
 
-## 🧭 Professional Mindset
-I believe in disciplined testing, structured communication, and measurable quality outcomes.  
-Every defect, test case, and log should be **clear, reproducible, and value-driven**.
+## CRM Testing – Heritage Compass
+
+CRM workflow validation covering:
+
+Lead Management  
+Deal Processing  
+Approval Flows  
+Role & Access Control  
+Hierarchy Validation  
+
+Artifacts
+
+• Defect logs  
+• Test case matrices  
+• UI validation documentation  
+
+Repository: *Coming Soon*
 
 ---
 
-<p align="center">🚀 Always learning. Always improving. Always testing.</p>
+# Currently Working On
+
+Building a **complete Selenium + PyTest automation framework**
+
+Strengthening **Python OOP for automation utilities**
+
+Designing **reusable QA documentation templates**
+
+Preparing **open-source QA testing resources**
+
+---
+
+# GitHub Analytics
+
+<p align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
+
+<img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight"/>
+
+</p>
+
+---
+
+# Contribution Graph
+
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night"/>
+</p>
+
+---
+
+# Connect With Me
+
+LinkedIn  
+https://www.linkedin.com/in/adarsh-tiwari-qa
+
+Email  
+tiwarishrey0@gmail.com
+
+---
+
+# Professional Philosophy
+
+Quality Assurance is not only about finding defects.
+
+It is about **protecting user experience, validating workflows, and ensuring business reliability.**
+
+Every test case, defect report, and execution log should be:
+
+• Clear  
+• Reproducible  
+• Measurable  
+• Valuable  
+
+---
+
+<p align="center">
+Always Learning • Always Improving • Always Testing
+</p>
