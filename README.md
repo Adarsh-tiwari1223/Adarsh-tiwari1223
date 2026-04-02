@@ -1,327 +1,155 @@
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0a1628,60:0d2137,100:1a3a5c&height=200&section=header&text=ADARSH%20TIWARI&fontSize=65&fontColor=58A6FF&fontAlignY=38&desc=Quality%20Assurance%20Engineer&descAlignY=58&descSize=20&descColor=8b949e&animation=fadeIn"/>
-</div>
 
-<br/>
-
-<div align="center">
-
-         "Quality is not an act — it is a habit of structured thinking."
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=1&section=header"/>
 
 </div>
 
-<div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&repeat=true&width=700&lines=🔍+Validating+Enterprise+Software+Systems;🧪+Selenium+·+Python+·+PyTest+Automation;📋+CRM+%26+HRMS+Workflow+Testing;🐛+Structured+Defect+Analysis+%26+Reporting;⚙️+Page+Object+Model+Framework+Design" />
-
-</div>
-
-<br/>
-
-<div align="center">
-
-![](https://img.shields.io/badge/-Quality%20Assurance-0d1117?style=for-the-badge&logo=checkmarx&logoColor=58A6FF)
-![](https://img.shields.io/badge/-Test%20Automation-0d1117?style=for-the-badge&logo=selenium&logoColor=3FB950)
-![](https://img.shields.io/badge/-Python-0d1117?style=for-the-badge&logo=python&logoColor=F0883E)
-![](https://img.shields.io/badge/-Enterprise%20Systems-0d1117?style=for-the-badge&logo=databricks&logoColor=FF7B72)
-
-</div>
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║   ADARSH TIWARI  //  Quality Assurance Engineer                  ║
+║   Selenium · PyTest · CRM · HRMS · Workflow Systems              ║
+║                                                                  ║
+║   "I don't find bugs. I find assumptions that were never tested." ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
 
 ---
 
-<br/>
+## What I Actually Do
 
-<table width="100%">
-<tr>
-<td width="60%" valign="top">
+Most QA engineers **validate that software works**.  
+I validate that software works **the way users actually behave** — not the way developers assumed they would.
 
-## 👤 &nbsp; Who I Am
+That distinction is the entire job.
 
-```yaml
-# adarsh_tiwari.yaml
+I specialize in **enterprise workflow systems** — CRM pipelines, HRMS modules, role-based access matrices — where a single skipped edge case doesn't just break a feature, it breaks a business process.
 
-profile:
-  name     : "Adarsh Tiwari"
-  role     : "Quality Assurance Engineer"
-  domains  : ["CRM", "HRMS", "Enterprise SaaS"]
-  style    : "Structured · Precise · Traceable"
-
-core_belief: >
-  A bug found before release is a feature
-  delivered with confidence.
-
-currently:
-  building   : "Selenium + PyTest POM Framework"
-  learning   : "Advanced Test Architecture"
-  focus      : "Automation at Scale"
-```
-
-</td>
-<td width="40%" valign="top">
-
-## 📡 &nbsp; Signal
-
-<br/>
-
-🟢 &nbsp; **Available for QA roles**
-
-<br/>
-
-```
-Domain     →  Enterprise Software
-Testing    →  Manual + Automation
-Reporting  →  Jira · Sheets · Docs
-Coverage   →  Functional · Regression
-                Smoke · UI · Workflow
-```
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adarsh-tiwari-qa)
-[![Email](https://img.shields.io/badge/Email-Reach%20Out-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:tiwarishrey0@gmail.com)
-
-</td>
-</tr>
-</table>
-
-<br/>
+My testing starts before any test case is written: understanding the **domain model**, the **failure modes that matter**, and the **assumptions baked into the requirements**. By the time I'm writing test cases, I already know where the system will break.
 
 ---
 
-## 🧠 &nbsp; The QA Philosophy
+## What I'm Building Right Now
 
-<br/>
+```
+Selenium + PyTest Automation Framework
+──────────────────────────────────────
+Architecture  →  Page Object Model (strict separation of locators, actions, tests)
+Test Data     →  JSON fixtures + Faker for dynamic generation
+Fixtures      →  conftest.py with scope-aware session/function setup
+Reporting     →  HTML reports via pytest-html + structured failure logs
+Status        →  Active development — regression suite for HRMS flows
+```
 
-<table width="100%">
-<tr>
-<td align="center" width="25%">
-
-**🔬**
-<br/>
-**Understand**
-<br/>
-<sub>System behavior before writing a single test case</sub>
-
-</td>
-<td align="center" width="25%">
-
-**📐**
-<br/>
-**Design**
-<br/>
-<sub>Structured tests mapped to real business workflows</sub>
-
-</td>
-<td align="center" width="25%">
-
-**⚡**
-<br/>
-**Execute**
-<br/>
-<sub>Disciplined, repeatable, evidence-backed runs</sub>
-
-</td>
-<td align="center" width="25%">
-
-**📌**
-<br/>
-**Report**
-<br/>
-<sub>Clear, reproducible, business-impact-traced defects</sub>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-> 💡 &nbsp; *Testing is not a phase at the end of development.*
-> *It is a discipline woven into every stage of delivery.*
-
-<br/>
+The goal isn't just automation. It's **automation that a junior engineer can maintain six months from now** without asking me what any of it does.
 
 ---
 
-## ⚔️ &nbsp; Arsenal
+## Testing Philosophy — in practice, not in posters
 
-<br/>
+**Before writing a single test case, I ask:**
 
-<div align="center">
+- What is the system *supposed* to do? (requirements)
+- What do users *actually* do? (observed behavior patterns)
+- Where do those two things diverge? (the real risk surface)
 
-### Core Stack
+**The cases that actually find bugs:**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![PyTest](https://img.shields.io/badge/PyTest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+| Type | What I'm really checking |
+|------|--------------------------|
+| Boundary inputs | Does the system degrade gracefully or explode silently? |
+| State transitions | Can a Lead skip stages it shouldn't? Can a closed Deal reopen? |
+| Role boundaries | Does the UI hide things, or does the *API* actually block them? |
+| Data integrity | Does saving twice create two records? Does cancel *actually* cancel? |
+| Session behavior | What happens to a form when the session expires mid-fill? |
 
-### Dev & Tracking
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-![Chrome](https://img.shields.io/badge/DevTools-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
-
-### Data & Config
-
-![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
-![Faker](https://img.shields.io/badge/Faker-Data%20Gen-6E40C9?style=for-the-badge)
-
-</div>
-
-<br/>
+The last two rows are where most bugs live. Most test suites stop at row one.
 
 ---
 
-## 🏗️ &nbsp; What I Test
+## Domain Coverage
 
-<br/>
+**CRM Systems**
+- Lead lifecycle: creation → qualification → conversion → closure
+- Multi-stage Deal approval flows with role-gated transitions
+- Permission matrix testing: what each role can *see* vs. *do* vs. *cannot access*
+- Workflow restriction validation: user-level rules, override logic, audit trails
 
-<details open>
-<summary>&nbsp;<b>🤖 &nbsp; Selenium · PyTest Automation Framework</b> &nbsp;—&nbsp; <i>In Progress</i></summary>
-
-<br/>
-
-```
-Architecture  ──────────────────────────────────────────────  Page Object Model
-Test Data     ──────────────────────────────────────────────  JSON + Faker
-Fixtures      ──────────────────────────────────────────────  PyTest Hooks & Conftest
-Coverage      ──────────────────────────────────────────────  Regression Flows
-Goal          ──────────────────────────────────────────────  Reduce Manual Overhead
-```
-
-> *Building for maintainability first. Every page is a class. Every action is a method. Every test is a story.*
-
-<br/>
-</details>
-
-<details>
-<summary>&nbsp;<b>👥 &nbsp; HRMS System Testing</b> &nbsp;—&nbsp; <i>Completed Cycles</i></summary>
-
-<br/>
-
-| Module | Coverage Type | Status |
-|--------|--------------|--------|
-| Employee Management | Functional · Regression | ✅ Validated |
-| Leave Management | Workflow · Edge Cases | ✅ Validated |
-| Attendance Tracking | Data Integrity · UI | ✅ Validated |
-| Document Workflow | End-to-End · Role Access | ✅ Validated |
-
-<br/>
-</details>
-
-<details>
-<summary>&nbsp;<b>📊 &nbsp; CRM Workflow Testing</b> &nbsp;—&nbsp; <i>Completed Cycles</i></summary>
-
-<br/>
-
-| Module | Focus Area | Artifacts |
-|--------|-----------|-----------|
-| Lead Lifecycle | State transitions · Validation rules | Test Cases · Defect Logs |
-| Deal Approvals | Multi-step flows · Role gates | Regression Suite |
-| Role Hierarchy | Permission matrix · Restriction logic | Access Matrix Docs |
-| Workflow Restrictions | User-based rules · Override checks | UI Validation Docs |
-
-<br/>
-</details>
-
-<br/>
+**HRMS Systems**
+- Employee management: onboarding data integrity, field validation, duplicate detection
+- Leave management: balance calculations, approval chains, edge cases at period boundaries  
+- Attendance: clock-in/out sequences, break handling, data sync consistency
+- Document workflows: upload → review → approval → archive, with role access at each gate
 
 ---
 
-## 📊 &nbsp; Competency Map
-
-<br/>
-
-```
-MANUAL TESTING
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-  Functional Testing     ████████████████████░░░░  Expert
-  Regression Testing     ████████████████████░░░░  Expert
-  Smoke Testing          ████████████████████████  Expert
-  UI Validation          ██████████████████░░░░░░  Advanced
-  Test Case Design       ████████████████████░░░░  Expert
-  Requirement Analysis   ██████████████████░░░░░░  Advanced
-  Workflow Validation    ████████████████████░░░░  Expert
-
-AUTOMATION
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-  Python                 ████████████████░░░░░░░░  Proficient
-  Selenium WebDriver     ████████████████░░░░░░░░  Proficient
-  PyTest Framework       ██████████████░░░░░░░░░░  Growing
-  Page Object Model      ████████████████░░░░░░░░  Proficient
-  Data-Driven Testing    ██████████████░░░░░░░░░░  Growing
-```
-
-<br/>
-
----
-
-## 🎯 &nbsp; Current Focus
-
-<br/>
+## Stack
 
 ```python
-# 2025 — Building Automation Depth
-
-roadmap = {
-    "now": [
-        "Selenium + PyTest POM framework",
-        "Python test utilities library",
-    ],
-    "next": [
-        "CI/CD pipeline integration",
-        "Reusable QA documentation templates",
-    ],
-    "vision": "End-to-end automated regression with zero manual repetition"
+core = {
+    "language"    : "Python 3.x",
+    "automation"  : "Selenium WebDriver + PyTest",
+    "pattern"     : "Page Object Model",
+    "data"        : "JSON fixtures · Faker",
+    "api_testing" : "Postman",
+    "tracking"    : "Jira · Git · GitHub",
+    "reporting"   : "pytest-html · structured defect logs",
 }
-```
 
-<br/>
+learning = [
+    "Advanced PyTest fixtures and parametrize patterns",
+    "CI/CD pipeline integration (GitHub Actions)",
+    "API-layer test coverage to complement UI automation",
+]
+```
 
 ---
 
-## 📬 &nbsp; Connect With Me
+## How I Write Defects
 
-<br/>
+A defect report is a **reproducibility contract** between me and the developer.
 
-<div align="center">
+```
+TITLE         : Precise. No vague "Login fails" — write "Login fails when 
+                email contains uppercase characters despite case-insensitive 
+                spec in AUTH-214"
 
-<table>
-<tr>
-<td align="center" width="50%">
+ENVIRONMENT   : Browser, OS, test account role, data state at time of failure
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adarsh-tiwari-qa)
+STEPS         : Numbered. Atomic. Someone who's never seen the system can 
+                reproduce this in under 5 minutes.
 
-**adarsh-tiwari-qa**
+EXPECTED      : What the spec says, with reference
 
-</td>
-<td align="center" width="50%">
+ACTUAL        : Exactly what happened, with screenshot and console log
 
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tiwarishrey0@gmail.com)
+SEVERITY      : Tied to business impact, not personal frustration
+```
 
-**tiwarishrey0@gmail.com**
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
+Developers merge my bug reports without asking follow-up questions.  
+That's the metric I care about.
 
 ---
 
-<div align="center">
+## Roadmap — 2025
 
 ```
-Every release I touch is a release that works.
+Q2  →  Complete POM framework for HRMS regression suite
+Q3  →  Add API-level tests (requests + PyTest) alongside UI layer  
+Q4  →  GitHub Actions CI integration: test runs on every PR
 ```
 
-<br/>
+---
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a3a5c,30:0d2137,60:0a1628,100:0d1117&height=120&section=footer&animation=fadeIn"/>
+## Currently Open To
 
-</div>
+QA Engineer roles in **product companies** working on enterprise software.  
+Preferably teams where QA is treated as an engineering discipline, not a bottleneck.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-adarsh--tiwari--qa-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/adarsh-tiwari-qa)&nbsp;
+[![Email](https://img.shields.io/badge/Email-tiwarishrey0%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:tiwarishrey0@gmail.com)
+
+---
+
+<sub>Last updated: 2025 · Building in public · Framework code dropping soon</sub>
