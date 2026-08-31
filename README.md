@@ -8,52 +8,6 @@
 
 ---
 
-# 📊 GitHub Activity
-
-### 354 contributions in the last year
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Adarsh-tiwari1223&show_icons=true&hide_border=true&rank_icon=github" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adarsh-tiwari1223&layout=compact&hide_border=true" height="165">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Adarsh-tiwari1223&hide_border=true" height="165">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Adarsh-tiwari1223&hide_border=true">
-</p>
-
-### Recent Contribution Activity
-
-**August 2026**
-
-* **HRlens_Playwright** — 35 commits
-* **Adarsh-tiwari1223** — 2 commits
-* **BVB_playwright** — 1 commit
-* Merged **Branch Group page object & dynamic business test data** PR
-* Merged **Regularization refinements** PR
-
-### Current Engineering Focus
-
-```text
-354+ GitHub Contributions
-        ↓
-Active Playwright Development
-        ↓
-HRlens Automation Framework
-        ↓
-Page Object Model
-        ↓
-PyTest + Reusable Fixtures
-        ↓
-UI + API + Database Validation
-        ↓
-CI/CD & Continuous Regression
-```
-
----
 
 ## 👨‍💻 About Me
 
