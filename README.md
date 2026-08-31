@@ -1,43 +1,95 @@
-# Enterprise Multi-Layer Automation Framework (Python + Playwright + Pytest)
+# Adarsh Tiwari
 
-![CI Pipeline](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square&logo=githubactions)
-![Python Version](https://img.shields.io/badge/python-3.11%2B-blue?style=flat-square&logo=python)
-![Playwright](https://img.shields.io/badge/playwright-v1.40%2B-green?style=flat-square&logo=playwright)
-![Pytest](https://img.shields.io/badge/pytest-v8.0%2B-orange?style=flat-square&logo=pytest)
-![Docker](https://img.shields.io/badge/docker-ready-2496ED?style=flat-square&logo=docker)
+### Software Development Engineer in Test (SDET)
+**Python · Playwright · PyTest · REST APIs · SQL · CI/CD · Docker**
 
-A modular, production-ready test automation framework designed for full-stack multi-layer validation: **UI interactions (Playwright)**, **RESTful API endpoints (`requests`)**, and **Database state assertions (SQL)**. Integrated with **GitHub Actions CI/CD** and **Docker** for headless cross-browser test execution.
+```
+╔══════════════════════════════════════════════════════════════════╗
+║  "I don't just find bugs.                                        ║
+║   I find assumptions that were never tested."                    ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+Most test suites validate that software works on the happy path. I build resilient automation architectures that stress-test how enterprise systems behave under real-world concurrency, state transitions, and strict API/DB contract boundaries.
 
 ---
 
-## 🏛️ Architecture & Design Patterns
+## 🛠️ Technical Stack & Tools
 
-The framework decouples locators, business actions, test data, and fixtures into an enterprise-grade Page Object Model (POM):
+* **Languages:** Python 3.11+, SQL
+* **UI Automation:** Playwright, PyTest, Selenium WebDriver
+* **API Testing:** Requests, Postman, REST API, JSON Schema Validation
+* **DevOps & Infrastructure:** Docker, GitHub Actions, Linux, Git
+* **Architecture & Patterns:** Page Object Model (POM), Scope-Aware Fixtures, Multi-Layer Assertions, RCA
+* **Reporting & Observability:** Pytest-HTML, Allure, Structured Logging, Jira Defect Tracing
 
-```text
-├── .github/
-│   └── workflows/
-│       └── test_pipeline.yml       # GitHub Actions automated CI run
-├── config/
-│   ├── config.ini                  # Environment configurations & URLs
-│   └── logger.py                   # Centralized structured test logger
-├── pages/                          # Page Object Model classes
-│   ├── base_page.py                # Wrapper for common Playwright actions
-│   ├── login_page.py
-│   └── dashboard_page.py
-├── tests/
-│   ├── ui/                         # UI Playwright tests
-│   │   └── test_user_flow.py
-│   ├── api/                        # REST API tests
-│   │   └── test_auth_and_crud.py
-│   └── conftest.py                 # Core fixtures, browser lifecycle, hooks
-├── utils/                          # Shared reusable modules
-│   ├── api_client.py               # REST API wrapper (Requests / Token injection)
-│   ├── db_helper.py                # Database connection & SQL assertion helper
-│   └── test_data_loader.py         # Dynamic JSON / YAML test data loader
-├── .dockerignore
-├── .gitignore
-├── Dockerfile                      # Containerized test runner
-├── pytest.ini                      # Pytest CLI options, markers, and logging
-├── requirements.txt                # Pinned dependencies
-└── README.md
+---
+
+## 🚀 Flagship Automation Repositories
+
+* **[playwright-pytest-enterprise-framework](https://github.com/your-username/playwright-pytest-enterprise-framework)**  
+  Modular, production-ready E2E automation framework featuring Page Object Model, reusable PyTest fixtures, cross-browser execution, and multi-layer validation (UI + API + SQL DB). Integrated with Docker and GitHub Actions CI/CD.
+
+* **[rest-api-automation-pytest](https://github.com/your-username/rest-api-automation-pytest)**  
+  RESTful API testing suite built with Python and Requests, validating endpoint contracts, payload schemas, auth headers, and backend database state consistency.
+
+---
+
+## ⚙️ Production Test Architecture Blueprint
+
+```
+FRAMEWORK      :  Playwright + PyTest Multi-Layer Suite
+Design Pattern :  Page Object Model (POM) with isolated locators & actions
+Fixtures       :  conftest.py with session/function scope-aware dependency injection
+Multi-Layer    :  API setup/teardown + UI state verification + SQL DB assertions
+Container      :  Dockerized headless test runner for environment parity
+CI Pipeline    :  GitHub Actions executing smoke & regression suites on every PR
+```
+
+---
+
+## 🔍 Engineering Rigor: Where Bugs Actually Hide
+
+```
+Test Dimension       What My Automation Actually Validates
+─────────────────────────────────────────────────────────────────────────────
+Boundary Inputs    → Does the system degrade gracefully or fail silently?
+State Machines     → Can an entity skip approval stages via direct URL manipulation?
+Role Isolation     → Does the UI hide buttons — or does the API reject unauthorized payloads?
+Data Integrity     → Do atomic transactions rollback completely on DB execution errors?
+Idempotency        → Does double-clicking submit create duplicate DB records?
+Session Boundary   → How does the state engine behave when auth tokens expire mid-flow?
+Race Conditions    → What happens when concurrent requests modify the same entity?
+```
+
+---
+
+## 💼 Domain & Enterprise Workflow Expertise
+
+* **Enterprise CRM Workflows:** Lead lifecycles, deal approval hierarchies, dynamic pipeline stages, and strict multi-tier Role-Based Access Control (RBAC).
+* **HRMS & Operations Systems:** Employee onboarding data integrity, complex leave balance calculation state machines, and attendance record synchronization.
+
+---
+
+## 🎯 Defect Engineering Contract
+
+```
+TITLE        :  Precise. "AUTH-402: Login allows lowercase bypass on uppercase-enforced
+                usernames, violating RFC-5322 compliance"
+
+ENVIRONMENT  :  Headless Chromium · Ubuntu 22.04 · Staging v2.4.1 · Auth Token State
+
+REPRODUCTION :  Atomic steps reproducible in under 2 minutes by any engineer.
+
+PAYLOAD/LOGS :  Exact cURL command, API response code, and DB state mismatch.
+
+IMPACT       :  Tied to security and business process failure, not visual inconvenience.
+```
+
+---
+
+## 📬 Connect
+
+* **Location:** India (Open to Remote, Bangalore, Gurgaon/Delhi NCR, Hyderabad, Noida)
+* **LinkedIn:** [linkedin.com/in/adarsh-shrey-tiwari](https://www.linkedin.com/in/adarsh-shrey-tiwari)
+* **Email:** tiwarishrey0@gmail.com
