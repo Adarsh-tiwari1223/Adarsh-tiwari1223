@@ -1,183 +1,82 @@
 # Adarsh Tiwari
 
 ### Software Development Engineer in Test (SDET)
-
 **Python · Playwright · PyTest · REST APIs · SQL · CI/CD · Docker**
 
 > **I don't just find bugs. I find assumptions that were never tested.**
 
 ---
 
+# 👨‍💻 About Me
 
-## 👨‍💻 About Me
+I am a **Software Development Engineer in Test (SDET)** focused on web application and API test automation using **Python, Playwright, and PyTest**.
 
-I am an **SDET focused on web application and API test automation**, with hands-on experience building and maintaining automated test suites using **Python, Playwright, and PyTest**.
+My testing approach goes beyond the happy path. I focus on:
 
-My testing approach goes beyond the happy path. I focus on **business workflows, role-based access, state transitions, API contracts, database consistency, and regression coverage**.
+- Business workflow validation
+- Role-Based Access Control (RBAC)
+- State transitions
+- API contract validation
+- Database consistency
+- Negative and boundary scenarios
+- Regression automation
+- End-to-end workflow testing
+- CI/CD test execution
+- Root Cause Analysis
+
+I build automation that validates not only **what the user sees**, but also **what the system does behind the UI**.
 
 ---
 
 # 🚀 Featured Project
 
-## HRlens — HR Management System
+## HRlens_Playwright
 
-**HRlens** is an HR management platform covering employee management, attendance, leave, recruitment, documents, assets, and administrative workflows.
+[![HRlens](https://img.shields.io/badge/Project-HRlens_Playwright-blue?style=for-the-badge)](https://github.com/Adarsh-tiwari1223/HRlens_Playwright)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Playwright](https://img.shields.io/badge/Playwright-Automation-2EAD33?style=flat-square&logo=playwright&logoColor=white)](https://playwright.dev/)
+[![PyTest](https://img.shields.io/badge/PyTest-Test_Framework-0A9EDC?style=flat-square)](https://pytest.org/)
 
-### QA & Automation
+**HRlens_Playwright** is an end-to-end automation framework for the HRlens application, covering **UI automation, API validation, and business workflow testing**.
 
-* Python + PyTest + Playwright
-* Page Object Model architecture
-* Reusable PyTest fixtures
-* UI functional and regression automation
-* REST API testing
-* SQL/database validation
-* Role-Based Access Control testing
-* End-to-end business workflow validation
-* Cross-role workflow validation
-* CI/CD test execution
-* Defect investigation and RCA
+### 🔗 Repository
 
-### Automation Architecture
+**[Adarsh-tiwari1223/HRlens_Playwright →](https://github.com/Adarsh-tiwari1223/HRlens_Playwright)**
+
+### Key Areas
+
+- Python + PyTest + Playwright
+- Page Object Model (POM)
+- Reusable PyTest fixtures
+- UI automation
+- API validation
+- Business workflow coverage
+- Role-Based Access Control testing
+- Cross-module workflow validation
+- Regression automation
+- Negative and boundary testing
+- Database/data validation
+- CI/CD execution
+- Defect investigation and RCA
+
+---
+
+# 🏗️ Automation Architecture
 
 ```text
-                    HRlens
-                      │
-              ┌───────┴───────┐
-              ↓               ↓
-           UI Layer        API Layer
-         Playwright        Requests
-              │               │
-              └───────┬───────┘
-                      ↓
-                Business Logic
-                      ↓
-                Database Layer
-                      ↓
-                SQL Validation
-                      ↓
-               Final Assertions
-```
-
----
-
-# 🛠️ Technical Stack
-
-| Area                  | Technologies                                     |
-| --------------------- | ------------------------------------------------ |
-| **Languages**         | Python 3.11+, SQL                                |
-| **UI Automation**     | Playwright, PyTest, Selenium                     |
-| **API Testing**       | REST API, Requests, Postman, JSON Validation     |
-| **Database**          | SQL, Backend/Data Validation                     |
-| **CI/CD**             | GitHub Actions                                   |
-| **Containers**        | Docker                                           |
-| **Version Control**   | Git, GitHub                                      |
-| **Architecture**      | Page Object Model, Fixtures, Reusable Components |
-| **Reporting**         | Pytest HTML, Allure, Structured Logging          |
-| **Defect Management** | Jira, RCA, Defect Tracking                       |
-
----
-
-# 🔍 What I Test
-
-```text
-Boundary Conditions
-        ↓
-State Transitions
-        ↓
-Role & Permission Isolation
-        ↓
-API Contract Validation
-        ↓
-Database Consistency
-        ↓
-Duplicate Submission / Idempotency
-        ↓
-Authentication & Session States
-        ↓
-End-to-End Business Workflows
-```
-
----
-
-# ⚙️ CI/CD
-
-```text
-Developer Push / Pull Request
-              ↓
-        GitHub Actions
-              ↓
-       Install Dependencies
-              ↓
-       Start Test Environment
-              ↓
-       Execute PyTest Suite
-              ↓
-      Playwright Test Execution
-              ↓
-        Generate Reports
-              ↓
-       Pass / Fail Pipeline
-```
-
----
-
-# 🧪 Testing Expertise
-
-### Manual Testing
-
-* Functional Testing
-* Regression Testing
-* Integration Testing
-* System Testing
-* Exploratory Testing
-* Negative Testing
-* Boundary Value Testing
-* RBAC Testing
-* End-to-End Testing
-
-### Automation Testing
-
-* Playwright E2E automation
-* PyTest framework
-* Page Object Model
-* Fixture-based test setup
-* Parameterized testing
-* API + UI integration
-* Database assertions
-* Screenshot and trace capture
-* CI-based regression execution
-
----
-
-# 📈 Engineering Principles
-
-```text
-Automation should reduce repetitive effort.
-
-Assertions should validate business behavior.
-
-Tests should be independent and maintainable.
-
-Failures should provide actionable evidence.
-
-CI should detect regressions early.
-
-A passing UI does not always mean a healthy system.
-```
-
----
-
-# 📬 Connect
-
-**Location:** India
-**Open to:** Remote · Bangalore · Gurgaon/Delhi NCR · Hyderabad · Noida
-
-**LinkedIn:**
-https://www.linkedin.com/in/adarsh-shrey-tiwari
-
-**Email:**
-[tiwarishrey0@gmail.com](mailto:tiwarishrey0@gmail.com)
-
----
-
-### ⭐ Building, testing, breaking, and improving software — one workflow at a time.
+                         HRlens
+                           │
+              ┌────────────┴────────────┐
+              ↓                         ↓
+           UI Layer                 API Layer
+         Playwright                 Requests
+              │                         │
+              └────────────┬────────────┘
+                           ↓
+                    Business Workflow
+                           ↓
+                     Data Validation
+                           ↓
+                   Database / SQL Check
+                           ↓
+                    Final Assertions
