@@ -1,4 +1,5 @@
 import os
+from datetime import datetime
 from playwright.sync_api import sync_playwright
 import pypdf
 
@@ -328,9 +329,13 @@ HTML_CONTENT = """<!DOCTYPE html>
 </html>
 """
 
-def generate():
+def generate(month_year=None):
+    if not month_year:
+        now = datetime.now()
+        month_year = now.strftime("%b_%Y").lower()  # e.g. "nov_2026"
+    
     output_html = "resume/Adarsh_Tiwari_Resume.html"
-    output_pdf = "resume/Adarsh_Tiwari_QA_june_2026.pdf"
+    output_pdf = f"resume/Adarsh_Tiwari_QA_{month_year}.pdf"
     
     with open(output_html, "w", encoding="utf-8") as f:
         f.write(HTML_CONTENT)
@@ -351,7 +356,7 @@ def generate():
         browser.close()
     
     reader = pypdf.PdfReader(output_pdf)
-    print(f"VERIFICATION: Output PDF generated with EXACTLY {len(reader.pages)} page(s)!")
+    print(f"SUCCESS: Generated {output_pdf} with EXACTLY {len(reader.pages)} page(s)!")
 
 if __name__ == "__main__":
-    generate()
+    generate("nov_2026")
