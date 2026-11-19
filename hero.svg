@@ -1,0 +1,273 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 540" width="1280" height="540" role="img" aria-label="Adarsh Tiwari — SDET &amp; Bug Slayer Hashira">
+  <title>Adarsh Tiwari — SDET &amp; Bug Slayer Hashira</title>
+  <defs>
+    <style>
+      @keyframes floatSpark {
+        0% { transform: translateY(0px) scale(0.8); opacity: 0; }
+        50% { opacity: 0.9; }
+        100% { transform: translateY(-70px) scale(1.3); opacity: 0; }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 14px rgba(255, 75, 31, 0.6)); }
+        50% { opacity: 0.45; filter: drop-shadow(0 0 6px rgba(0, 242, 254, 0.4)); }
+      }
+      @keyframes slashSweep {
+        0% { stroke-dashoffset: 1400; opacity: 0; }
+        15% { opacity: 1; }
+        50% { stroke-dashoffset: 0; opacity: 1; }
+        70% { opacity: 0.2; }
+        100% { stroke-dashoffset: -1400; opacity: 0; }
+      }
+      @keyframes roleCycle {
+        0%, 28% { opacity: 1; transform: translateY(0); }
+        33%, 95% { opacity: 0; transform: translateY(-16px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes roleCycle2 {
+        0%, 31% { opacity: 0; transform: translateY(16px); }
+        36%, 62% { opacity: 1; transform: translateY(0); }
+        67%, 100% { opacity: 0; transform: translateY(-16px); }
+      }
+      @keyframes roleCycle3 {
+        0%, 65% { opacity: 0; transform: translateY(16px); }
+        70%, 95% { opacity: 1; transform: translateY(0); }
+        100% { opacity: 0; transform: translateY(16px); }
+      }
+      @keyframes bladeSheen {
+        0% { transform: translateX(-200px) rotate(25deg); opacity: 0; }
+        20% { opacity: 0.9; }
+        60%, 100% { transform: translateX(500px) rotate(25deg); opacity: 0; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif; font-weight: 700; }
+      .font-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif; font-weight: 500; }
+      .spark1 { animation: floatSpark 3.2s ease-in-out infinite; }
+      .spark2 { animation: floatSpark 2.5s ease-in-out infinite 0.7s; }
+      .spark3 { animation: floatSpark 3.8s ease-in-out infinite 1.4s; }
+      .spark4 { animation: floatSpark 2.9s ease-in-out infinite 2.1s; }
+      .slash-line { stroke-dasharray: 700; animation: slashSweep 5s cubic-bezier(0.2, 0.8, 0.2, 1) infinite; }
+      .role-1 { animation: roleCycle 9s ease-in-out infinite; }
+      .role-2 { animation: roleCycle2 9s ease-in-out infinite; }
+      .role-3 { animation: roleCycle3 9s ease-in-out infinite; }
+      .cursor-blink { animation: blink 1s step-end infinite; }
+    </style>
+
+    <!-- Tanjiro Checkered Pattern (Ichimatsu) -->
+    <pattern id="ichimatsu" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#0c1a14" opacity="0.65"/>
+      <rect x="20" y="0" width="20" height="20" fill="#080a0f"/>
+      <rect x="0" y="20" width="20" height="20" fill="#080a0f"/>
+      <rect x="20" y="20" width="20" height="20" fill="#0c1a14" opacity="0.65"/>
+    </pattern>
+
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c13"/>
+      <stop offset="50%" stop-color="#0e131d"/>
+      <stop offset="100%" stop-color="#07090e"/>
+    </linearGradient>
+
+    <!-- Sun Breathing Nichirin Flame -->
+    <linearGradient id="flameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3b30"/>
+      <stop offset="35%" stop-color="#ff9500"/>
+      <stop offset="70%" stop-color="#ffcc00"/>
+      <stop offset="100%" stop-color="#ff2d55"/>
+    </linearGradient>
+
+    <!-- Water Breathing Flow -->
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#0072ff"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2ecc71" stop-opacity="0.8"/>
+      <stop offset="30%" stop-color="#ff4757" stop-opacity="0.4"/>
+      <stop offset="70%" stop-color="#ffa502" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#00d2d3" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Card Glow Filter -->
+    <filter id="flameGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <clipPath id="cardRadius">
+      <rect width="1280" height="540" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardRadius)">
+    <!-- Base Background -->
+    <rect width="1280" height="540" fill="url(#bgGrad)"/>
+    <rect width="1280" height="540" fill="url(#ichimatsu)"/>
+
+    <!-- Ambient Demon Slayer Energy Nebulas -->
+    <circle cx="150" cy="120" r="220" fill="#2ecc71" opacity="0.08" filter="url(#flameGlow)"/>
+    <circle cx="1100" cy="420" r="260" fill="#ff4757" opacity="0.09" filter="url(#flameGlow)"/>
+    <circle cx="950" cy="180" r="200" fill="#00d2d3" opacity="0.07" filter="url(#flameGlow)"/>
+
+    <!-- ==================== RIGHT SIDE: DEMON SLAYER SEAL & KATANA SLASH ==================== -->
+    <g transform="translate(860, 40)">
+      <!-- Outer Kanji Emblem Tablet -->
+      <rect x="0" y="20" width="360" height="420" rx="20" fill="#111522" fill-opacity="0.75" stroke="#2a334a" stroke-width="1.5"/>
+      <rect x="12" y="32" width="336" height="396" rx="14" fill="none" stroke="#ff4757" stroke-opacity="0.25" stroke-dasharray="8 6"/>
+
+      <!-- Corps Crest Watermark: 滅 (METSU - DESTROY ALL DEFECTS) -->
+      <text x="180" y="270" font-family="'Segoe UI', 'Noto Sans JP', sans-serif" font-weight="900" font-size="220" fill="#ff4757" fill-opacity="0.08" text-anchor="middle">滅</text>
+
+      <!-- Demon Slayer Corps Medallion -->
+      <circle cx="180" cy="150" r="75" fill="#161c2e" stroke="url(#flameGrad)" stroke-width="3" filter="url(#flameGlow)"/>
+      <circle cx="180" cy="150" r="62" fill="none" stroke="#2ecc71" stroke-width="1.5" stroke-dasharray="5 3"/>
+
+      <!-- Center Iconic Kanji: 滅 (Slay) -->
+      <text x="180" y="178" font-family="'Segoe UI', 'Noto Sans JP', sans-serif" font-weight="900" font-size="78" fill="url(#flameGrad)" text-anchor="middle" filter="url(#softGlow)">滅</text>
+
+      <!-- Badge Title -->
+      <rect x="60" y="250" width="240" height="32" rx="16" fill="#ff4757" fill-opacity="0.15" stroke="#ff4757" stroke-width="1"/>
+      <text x="180" y="271" class="font-mono" font-size="11" font-weight="700" fill="#ff6b81" letter-spacing="2.5" text-anchor="middle">BUG SLAYER HASHIRA</text>
+
+      <!-- Nichirin Blade Specification -->
+      <g transform="translate(45, 305)" class="font-mono" font-size="11">
+        <text x="0" y="0" fill="#8892b0">RANK :</text>
+        <text x="140" y="0" fill="#2ecc71" font-weight="700">HASHIRA (柱)</text>
+
+        <text x="0" y="24" fill="#8892b0">BREATHING :</text>
+        <text x="140" y="24" fill="#ff9f43" font-weight="700">PYTHON &amp; AUTOMATION</text>
+
+        <text x="0" y="48" fill="#8892b0">BLADE (TOOL) :</text>
+        <text x="140" y="48" fill="#00d2d3" font-weight="700">PLAYWRIGHT · PYTEST</text>
+
+        <text x="0" y="72" fill="#8892b0">SPECIALTY :</text>
+        <text x="140" y="72" fill="#ff4757" font-weight="700">STATE TRANSITIONS</text>
+
+        <text x="0" y="96" fill="#8892b0">DISCIPLINE :</text>
+        <text x="140" y="96" fill="#a29bfe" font-weight="700">TOTAL CONCENTRATION</text>
+      </g>
+
+      <!-- Water/Flame Slash Arc -->
+      <path class="slash-line" d="M -60,400 Q 180,30 390,200" fill="none" stroke="url(#flameGrad)" stroke-width="4" stroke-linecap="round" filter="url(#flameGlow)"/>
+      <path class="slash-line" d="M -40,410 Q 180,50 380,210" fill="none" stroke="url(#waterGrad)" stroke-width="2" stroke-linecap="round" filter="url(#softGlow)"/>
+
+      <!-- Floating Spark Embers -->
+      <circle cx="100" cy="180" r="2.5" fill="#ffcc00" class="spark1"/>
+      <circle cx="260" cy="140" r="2" fill="#ff4757" class="spark2"/>
+      <circle cx="80" cy="280" r="3" fill="#2ecc71" class="spark3"/>
+      <circle cx="290" cy="300" r="2" fill="#00f2fe" class="spark4"/>
+      <circle cx="180" cy="90" r="2" fill="#ffa502" class="spark1"/>
+    </g>
+
+    <!-- ==================== LEFT SIDE: HERO TERMINAL & BIO ==================== -->
+    <g transform="translate(60, 50)">
+      <!-- Top Pill Header -->
+      <rect x="0" y="0" width="330" height="30" rx="15" fill="#2ecc71" fill-opacity="0.12" stroke="#2ecc71" stroke-width="1.2"/>
+      <circle cx="16" cy="15" r="4.5" fill="#2ecc71">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="19" class="font-mono" font-size="10.5" font-weight="700" fill="#2ecc71" letter-spacing="1.5">DEMON SLAYER CORPS // SDET</text>
+
+      <!-- Terminal Command Line -->
+      <g transform="translate(0, 52)">
+        <text class="font-mono" font-size="14">
+          <tspan fill="#ff4757" font-weight="700">kisatsutai@adarsh</tspan><tspan fill="#64748b">:~$ </tspan>
+          <tspan fill="#e2e8f0">total_concentration </tspan>
+          <tspan fill="#2ecc71">--breath-of-sdet</tspan>
+        </text>
+        <rect x="442" y="-12" width="8" height="16" fill="#2ecc71" class="cursor-blink"/>
+      </g>
+
+      <!-- Greeting -->
+      <text x="0" y="112" class="font-sub" font-size="22" fill="#94a3b8" letter-spacing="0.5">Kon'nichiwa, I am</text>
+
+      <!-- Name with Nichirin Flame Gradient -->
+      <g transform="translate(0, 172)">
+        <text class="font-sans" font-size="58" letter-spacing="-1" fill="url(#flameGrad)" filter="url(#flameGlow)">Adarsh Tiwari</text>
+        <!-- Kanji Name Subscript -->
+        <text x="440" y="-8" font-family="'Segoe UI', 'Noto Sans JP', sans-serif" font-weight="700" font-size="24" fill="#475569">アダルシュ</text>
+      </g>
+
+      <!-- Nichirin Energy Underline Bar -->
+      <rect x="0" y="190" width="460" height="3" rx="1.5" fill="#1e293b"/>
+      <rect x="0" y="190" width="180" height="3" rx="1.5" fill="url(#flameGrad)">
+        <animate attributeName="width" values="80;460;80" dur="4.5s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- Dynamic Cycling Roles (Demon Slayer / SDET Lore) -->
+      <g transform="translate(0, 230)">
+        <g class="role-1">
+          <text class="font-mono" font-size="18" font-weight="700" fill="#00f2fe">
+            ⚔️ Software Development Engineer in Test (SDET)
+          </text>
+        </g>
+        <g class="role-2">
+          <text class="font-mono" font-size="18" font-weight="700" fill="#2ecc71">
+            🌊 Breath of Playwright · PyTest Automation Architect
+          </text>
+        </g>
+        <g class="role-3">
+          <text class="font-mono" font-size="18" font-weight="700" fill="#ff9f43">
+            🔥 Slaying Flaky Tests &amp; Untested System Assumptions
+          </text>
+        </g>
+      </g>
+
+      <!-- Philosophy Quote Box -->
+      <g transform="translate(0, 268)">
+        <rect x="0" y="0" width="680" height="66" rx="12" fill="#111827" fill-opacity="0.8" stroke="#1f2937" stroke-width="1.5"/>
+        <line x1="0" y1="0" x2="0" y2="66" stroke="#ff4757" stroke-width="4"/>
+        <text x="20" y="28" class="font-sub" font-size="14.5" fill="#f1f5f9" font-style="italic">
+          "I don't just find bugs. I find assumptions that were never tested."
+        </text>
+        <text x="20" y="50" class="font-mono" font-size="12" fill="#64748b">
+          — Total Concentration: Full Stack Verification (UI + API + SQL)
+        </text>
+      </g>
+
+      <!-- Status & Badges Strip -->
+      <g transform="translate(0, 360)">
+        <!-- Badge 1: Location -->
+        <g transform="translate(0, 0)">
+          <rect width="130" height="34" rx="8" fill="#1e293b" fill-opacity="0.7" stroke="#334155" stroke-width="1"/>
+          <text x="65" y="21" class="font-mono" font-size="11" fill="#cbd5e1" text-anchor="middle">📍 India (Remote)</text>
+        </g>
+
+        <!-- Badge 2: Open for Hire -->
+        <g transform="translate(142, 0)">
+          <rect width="180" height="34" rx="8" fill="#2ecc71" fill-opacity="0.12" stroke="#2ecc71" stroke-width="1"/>
+          <circle cx="16" cy="17" r="4" fill="#2ecc71">
+            <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+          </circle>
+          <text x="96" y="21" class="font-mono" font-size="11" font-weight="700" fill="#2ecc71" text-anchor="middle">AVAILABLE FOR IMPACT</text>
+        </g>
+
+        <!-- Badge 3: Flagship Mission -->
+        <g transform="translate(334, 0)">
+          <rect width="210" height="34" rx="8" fill="#ff4757" fill-opacity="0.12" stroke="#ff4757" stroke-width="1"/>
+          <text x="105" y="21" class="font-mono" font-size="11" font-weight="700" fill="#ff6b81" text-anchor="middle">MISSION: HRlens_Playwright</text>
+        </g>
+      </g>
+
+      <!-- Footer Motto -->
+      <g transform="translate(0, 425)">
+        <text class="font-mono" font-size="11.5" fill="#64748b" letter-spacing="1.2">
+          <tspan fill="#ff4757">柱 NICHIRIN DISCIPLINE</tspan> · Zero Escape Defects · Sub-Second Assertions · 100% Deterministic CI
+        </text>
+      </g>
+    </g>
+
+    <!-- Outer Card Border -->
+    <rect x="0.75" y="0.75" width="1278.5" height="538.5" rx="23.25" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
+  </g>
+</svg>

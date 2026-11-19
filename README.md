@@ -1,82 +1,111 @@
-# Adarsh Tiwari
+<div align="center">
 
-### Software Development Engineer in Test (SDET)
-**Python · Playwright · PyTest · REST APIs · SQL · CI/CD · Docker**
+<!-- ⚔️ HERO: DEMON SLAYER CORPS / BUG SLAYER HASHIRA -->
+<img src="./hero.svg?v=1" alt="Adarsh Tiwari — SDET &amp; Bug Slayer Hashira" width="100%"/>
 
-> **I don't just find bugs. I find assumptions that were never tested.**
+<br/><br/>
 
----
+<!-- 🌊 BREATH OF THE SDET: 4 TESTING FORMS -->
+<img src="./breathing-forms.svg?v=1" alt="Breath of the SDET — Four Core Testing Forms" width="100%"/>
 
-# 👨‍💻 About Me
+<br/><br/>
 
-I am a **Software Development Engineer in Test (SDET)** focused on web application and API test automation using **Python, Playwright, and PyTest**.
+<!-- ⚡ NICHIRIN ARSENAL: TECHNICAL STACK -->
+<img src="./stack.svg?v=1" alt="Nichirin Arsenal — SDET Technical Stack" width="100%"/>
 
-My testing approach goes beyond the happy path. I focus on:
+<br/><br/>
 
-- Business workflow validation
-- Role-Based Access Control (RBAC)
-- State transitions
-- API contract validation
-- Database consistency
-- Negative and boundary scenarios
-- Regression automation
-- End-to-end workflow testing
-- CI/CD test execution
-- Root Cause Analysis
+<!-- 🪪 HASHIRA IDENTIFICATION & ARCHITECTURE PIPELINE -->
+<img src="./hashira-id.svg?v=1" alt="Demon Slayer Corps Official ID &amp; Testing Architecture" width="100%"/>
 
-I build automation that validates not only **what the user sees**, but also **what the system does behind the UI**.
+<br/><br/>
 
----
+</div>
 
-# 🚀 Featured Project
+## ⚔️ S-Rank Slaying Missions (Featured Projects)
 
-## HRlens_Playwright
+<table>
+  <thead>
+    <tr>
+      <th>Mission / Project</th>
+      <th>Mission Objective &amp; Testing Scope</th>
+      <th>Nichirin Weapons (Tech Stack)</th>
+      <th align="center">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <a href="https://github.com/Adarsh-tiwari1223/HRlens_Playwright">
+          <b>HRlens_Playwright</b>
+        </a>
+      </td>
+      <td>
+        <b>Enterprise HR Management Automation Suite</b><br/>
+        End-to-end framework validating multi-role employee, attendance, and administrative workflows. Combines UI automation (Playwright), API contracts (Requests), and direct SQL state auditing with automated CI/CD execution and trace capture.
+      </td>
+      <td>
+        <code>Python 3.11+</code> <code>Playwright</code> <code>PyTest</code> <code>Page Object Model</code> <code>REST APIs</code> <code>SQL</code> <code>CI/CD</code>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Adarsh-tiwari1223/HRlens_Playwright">
+          <img src="https://img.shields.io/badge/Active-2ecc71?style=flat-square&logo=github&logoColor=white" alt="Active"/>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-[![HRlens](https://img.shields.io/badge/Project-HRlens_Playwright-blue?style=for-the-badge)](https://github.com/Adarsh-tiwari1223/HRlens_Playwright)
-[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Playwright](https://img.shields.io/badge/Playwright-Automation-2EAD33?style=flat-square&logo=playwright&logoColor=white)](https://playwright.dev/)
-[![PyTest](https://img.shields.io/badge/PyTest-Test_Framework-0A9EDC?style=flat-square)](https://pytest.org/)
+<div align="center">
 
-**HRlens_Playwright** is an end-to-end automation framework for the HRlens application, covering **UI automation, API validation, and business workflow testing**.
+<br/>
 
-### 🔗 Repository
+<a href="https://github.com/Adarsh-tiwari1223?tab=repositories">
+  <b>→ Inspect all repositories &amp; test automation frameworks</b>
+</a>
 
-**[Adarsh-tiwari1223/HRlens_Playwright →](https://github.com/Adarsh-tiwari1223/HRlens_Playwright)**
+<br/><br/>
 
-### Key Areas
+### 🌃 Demon Slayer Contribution District
 
-- Python + PyTest + Playwright
-- Page Object Model (POM)
-- Reusable PyTest fixtures
-- UI automation
-- API validation
-- Business workflow coverage
-- Role-Based Access Control testing
-- Cross-module workflow validation
-- Regression automation
-- Negative and boundary testing
-- Database/data validation
-- CI/CD execution
-- Defect investigation and RCA
+*Every commit forges another structure in the slaying district — rebuilt automatically every 24 hours.*
 
----
+<img src="./profile-3d-contrib/profile-night-view.svg?v=1" alt="3D contribution city" width="100%"/>
 
-# 🏗️ Automation Architecture
+<br/><br/>
 
-```text
-                         HRlens
-                           │
-              ┌────────────┴────────────┐
-              ↓                         ↓
-           UI Layer                 API Layer
-         Playwright                 Requests
-              │                         │
-              └────────────┬────────────┘
-                           ↓
-                    Business Workflow
-                           ↓
-                     Data Validation
-                           ↓
-                   Database / SQL Check
-                           ↓
-                    Final Assertions
+<!-- 🐍 DEMON SLAYER CONTRIBUTION SNAKE -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adarsh-tiwari1223/Adarsh-tiwari1223/output/github-snake-demonslayer.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adarsh-tiwari1223/Adarsh-tiwari1223/output/github-snake.svg">
+  <img alt="Demon Slayer Contribution Snake" src="https://raw.githubusercontent.com/Adarsh-tiwari1223/Adarsh-tiwari1223/output/github-snake-demonslayer.svg">
+</picture>
+
+<br/><br/>
+
+<!-- 鎹鴉 DISPATCH A KASUGAI CROW (CONNECT) -->
+<img src="./connect.svg?v=1" alt="Connect with Adarsh Tiwari" width="100%"/>
+
+<br/>
+
+<a href="https://www.linkedin.com/in/adarsh-shrey-tiwari">
+  <img src="https://img.shields.io/badge/LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="mailto:tiwarishrey0@gmail.com">
+  <img src="https://img.shields.io/badge/Email-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+&nbsp;
+<a href="https://github.com/Adarsh-tiwari1223">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Adarsh-tiwari1223&color=2ecc71&style=for-the-badge&label=CORPS+DISPATCHES" alt="Profile Views"/>
+
+<br/><br/>
+
+**Set your heart ablaze — Build unbreakable systems and eliminate untested assumptions. 滅**
+
+</div>

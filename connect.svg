@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 220" width="1280" height="220" role="img" aria-label="Connect with Adarsh Tiwari — Demon Slayer Dispatch">
+  <title>Connect with Adarsh Tiwari — Demon Slayer Dispatch</title>
+  <defs>
+    <style>
+      @keyframes pulseCrow {
+        0%, 100% { filter: drop-shadow(0 0 8px rgba(46, 204, 113, 0.4)); }
+        50% { filter: drop-shadow(0 0 16px rgba(0, 242, 254, 0.7)); }
+      }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif; font-weight: 700; }
+      .font-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif; }
+      .crow-glow { animation: pulseCrow 3.5s ease-in-out infinite; }
+    </style>
+
+    <pattern id="conPat" width="30" height="30" patternUnits="userSpaceOnUse">
+      <rect width="15" height="15" fill="#0d111a" opacity="0.5"/>
+      <rect x="15" y="0" width="15" height="15" fill="#080a10"/>
+      <rect x="0" y="15" width="15" height="15" fill="#080a10"/>
+      <rect x="15" y="15" width="15" height="15" fill="#0d111a" opacity="0.5"/>
+    </pattern>
+
+    <linearGradient id="conBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c13"/>
+      <stop offset="50%" stop-color="#0e131d"/>
+      <stop offset="100%" stop-color="#07090e"/>
+    </linearGradient>
+
+    <linearGradient id="conBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2ecc71" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#00f2fe" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff4757" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <clipPath id="conRadius">
+      <rect width="1280" height="220" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#conRadius)">
+    <rect width="1280" height="220" fill="url(#conBg)"/>
+    <rect width="1280" height="220" fill="url(#conPat)"/>
+
+    <!-- Left Header & Lore -->
+    <g transform="translate(60, 42)">
+      <rect x="0" y="0" width="36" height="6" rx="3" fill="#2ecc71"/>
+      <text x="48" y="7" class="font-mono" font-size="11" font-weight="700" fill="#2ecc71" letter-spacing="2">鎹鴉 · DISPATCH A KASUGAI CROW</text>
+      <text x="0" y="38" class="font-sans" font-size="24" fill="#f8fafc">Let's Build Unbreakable Systems Together</text>
+      <text x="0" y="64" class="font-sub" font-size="13" fill="#94a3b8">
+        Have complex enterprise workflows, flaky test suites, or untested assumptions? Dispatch a message.
+      </text>
+
+      <!-- Location Badge -->
+      <g transform="translate(0, 92)">
+        <rect width="360" height="30" rx="8" fill="#141c2e" stroke="#253046" stroke-width="1"/>
+        <circle cx="16" cy="15" r="4" fill="#2ecc71"/>
+        <text x="30" y="19" class="font-mono" font-size="11" fill="#cbd5e1">
+          📍 Open to: Remote · Bangalore · Gurgaon · Hyderabad
+        </text>
+      </g>
+    </g>
+
+    <!-- Right: Transmission Channels Cards -->
+    <g transform="translate(680, 42)">
+      <!-- LinkedIn Card -->
+      <a href="https://www.linkedin.com/in/adarsh-shrey-tiwari" target="_blank">
+        <g transform="translate(0, 0)" class="crow-glow">
+          <rect width="250" height="58" rx="12" fill="#0077b5" fill-opacity="0.15" stroke="#0077b5" stroke-width="1.5"/>
+          <!-- LinkedIn Icon Graphic -->
+          <rect x="18" y="15" width="28" height="28" rx="6" fill="#0077b5"/>
+          <text x="32" y="34" class="font-sans" font-size="16" fill="#ffffff" text-anchor="middle">in</text>
+          
+          <text x="58" y="28" class="font-mono" font-size="10" font-weight="700" fill="#38bdf8">LINKEDIN DISPATCH</text>
+          <text x="58" y="44" class="font-sans" font-size="12" fill="#f1f5f9">adarsh-shrey-tiwari</text>
+        </g>
+      </a>
+
+      <!-- Email Card -->
+      <a href="mailto:tiwarishrey0@gmail.com" target="_blank">
+        <g transform="translate(280, 0)">
+          <rect width="260" height="58" rx="12" fill="#ea4335" fill-opacity="0.15" stroke="#ea4335" stroke-width="1.5"/>
+          <!-- Email Icon Graphic -->
+          <rect x="18" y="15" width="28" height="28" rx="6" fill="#ea4335"/>
+          <text x="32" y="34" font-family="'Segoe UI', sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">✉</text>
+          
+          <text x="58" y="28" class="font-mono" font-size="10" font-weight="700" fill="#fca5a5">DIRECT ELECTRONIC DISPATCH</text>
+          <text x="58" y="44" class="font-sans" font-size="12" fill="#f1f5f9">tiwarishrey0@gmail.com</text>
+        </g>
+      </a>
+
+      <!-- GitHub Mission Log -->
+      <a href="https://github.com/Adarsh-tiwari1223" target="_blank">
+        <g transform="translate(0, 75)">
+          <rect width="540" height="48" rx="12" fill="#1e293b" fill-opacity="0.8" stroke="#334155" stroke-width="1.2"/>
+          <text x="24" y="29" class="font-mono" font-size="11" fill="#64748b">GITHUB COMMAND :</text>
+          <text x="170" y="29" class="font-mono" font-size="11" font-weight="700" fill="#2ecc71">github.com/Adarsh-tiwari1223</text>
+          <text x="490" y="29" class="font-mono" font-size="12" fill="#38bdf8">→</text>
+        </g>
+      </a>
+    </g>
+
+    <!-- Card Border -->
+    <rect x="0.75" y="0.75" width="1278.5" height="218.5" rx="23.25" fill="none" stroke="url(#conBorder)" stroke-width="1.5"/>
+  </g>
+</svg>

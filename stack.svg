@@ -1,0 +1,269 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 460" width="1280" height="460" role="img" aria-label="Nichirin Arsenal — SDET Technical Stack">
+  <title>Nichirin Arsenal — SDET Technical Stack</title>
+  <defs>
+    <style>
+      @keyframes orbit1 {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes orbitRev {
+        from { transform: rotate(360deg); }
+        to { transform: rotate(0deg); }
+      }
+      @keyframes coreGlow {
+        0%, 100% { filter: drop-shadow(0 0 15px rgba(255, 75, 31, 0.7)); transform: scale(1); }
+        50% { filter: drop-shadow(0 0 25px rgba(46, 204, 113, 0.8)); transform: scale(1.05); }
+      }
+      @keyframes chipPulse {
+        0%, 100% { opacity: 0.8; }
+        50% { opacity: 1; }
+      }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif; font-weight: 700; }
+      .font-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif; }
+      .orbit-cw { transform-origin: 210px 240px; animation: orbit1 18s linear infinite; }
+      .orbit-ccw { transform-origin: 210px 240px; animation: orbitRev 24s linear infinite; }
+      .core-pulse { transform-origin: 210px 240px; animation: coreGlow 4s ease-in-out infinite; }
+    </style>
+
+    <pattern id="stackPat" width="30" height="30" patternUnits="userSpaceOnUse">
+      <rect width="15" height="15" fill="#0d1118" opacity="0.5"/>
+      <rect x="15" y="0" width="15" height="15" fill="#07090e"/>
+      <rect x="0" y="15" width="15" height="15" fill="#07090e"/>
+      <rect x="15" y="15" width="15" height="15" fill="#0d1118" opacity="0.5"/>
+    </pattern>
+
+    <linearGradient id="stackBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090b10"/>
+      <stop offset="50%" stop-color="#0d121c"/>
+      <stop offset="100%" stop-color="#06080d"/>
+    </linearGradient>
+
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3838"/>
+      <stop offset="50%" stop-color="#ff9f1a"/>
+      <stop offset="100%" stop-color="#2ed573"/>
+    </linearGradient>
+
+    <filter id="stackGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <clipPath id="stackRadius">
+      <rect width="1280" height="460" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#stackRadius)">
+    <rect width="1280" height="460" fill="url(#stackBg)"/>
+    <rect width="1280" height="460" fill="url(#stackPat)"/>
+
+    <!-- Section Header -->
+    <g transform="translate(60, 42)">
+      <rect x="0" y="0" width="36" height="6" rx="3" fill="#2ecc71"/>
+      <text x="48" y="7" class="font-mono" font-size="11" font-weight="700" fill="#2ecc71" letter-spacing="2">日輪刀 · NICHIRIN BLADE ARSENAL</text>
+      <text x="0" y="36" class="font-sans" font-size="26" fill="#f8fafc">Technical Stack &amp; Automation Tooling</text>
+      <text x="540" y="34" class="font-sub" font-size="13" fill="#64748b">
+        Total Concentration: Pure Python test ecosystems &amp; robust QA architecture
+      </text>
+    </g>
+
+    <!-- LEFT: ORBITING NICHIRIN CORE -->
+    <g transform="translate(0, 0)">
+      <!-- Outer Orbit Ring 1 -->
+      <ellipse cx="210" cy="260" rx="140" ry="140" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-dasharray="6 8"/>
+      
+      <!-- Inner Orbit Ring 2 -->
+      <ellipse cx="210" cy="260" rx="95" ry="95" fill="none" stroke="#2ecc71" stroke-opacity="0.3" stroke-width="1.2"/>
+
+      <!-- Orbiting Moon 1 (Python) -->
+      <g class="orbit-cw">
+        <g transform="translate(210, 120)">
+          <circle cx="0" cy="0" r="22" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+          <text y="4" class="font-mono" font-size="11" font-weight="700" fill="#60a5fa" text-anchor="middle">Py</text>
+        </g>
+        <g transform="translate(210, 400)">
+          <circle cx="0" cy="0" r="20" fill="#1e293b" stroke="#2ecc71" stroke-width="2"/>
+          <text y="4" class="font-mono" font-size="10" font-weight="700" fill="#4ade80" text-anchor="middle">PW</text>
+        </g>
+      </g>
+
+      <!-- Orbiting Moon 2 (PyTest / Docker) -->
+      <g class="orbit-ccw">
+        <g transform="translate(115, 260)">
+          <circle cx="0" cy="0" r="18" fill="#1e293b" stroke="#00f2fe" stroke-width="1.5"/>
+          <text y="4" class="font-mono" font-size="9.5" font-weight="700" fill="#38bdf8" text-anchor="middle">API</text>
+        </g>
+        <g transform="translate(305, 260)">
+          <circle cx="0" cy="0" r="18" fill="#1e293b" stroke="#ff4757" stroke-width="1.5"/>
+          <text y="4" class="font-mono" font-size="9.5" font-weight="700" fill="#ff6b81" text-anchor="middle">SQL</text>
+        </g>
+      </g>
+
+      <!-- Central Glowing Sun Core -->
+      <g class="core-pulse">
+        <circle cx="210" cy="260" r="46" fill="#111827" stroke="url(#sunGrad)" stroke-width="3" filter="url(#stackGlow)"/>
+        <circle cx="210" cy="260" r="36" fill="#1e293b" stroke="#ff4757" stroke-width="1" stroke-dasharray="4 2"/>
+        <text x="210" y="258" font-family="'Segoe UI', 'Noto Sans JP', sans-serif" font-weight="900" font-size="28" fill="url(#sunGrad)" text-anchor="middle">鬼</text>
+        <text x="210" y="274" class="font-mono" font-size="9" font-weight="700" fill="#94a3b8" letter-spacing="1" text-anchor="middle">SDET</text>
+      </g>
+    </g>
+
+    <!-- RIGHT: 4 CATEGORIZED JUTSU CHIP CARDS -->
+    <g transform="translate(420, 105)">
+
+      <!-- CATEGORY 1: LANGUAGES & CORE -->
+      <g transform="translate(0, 0)">
+        <rect width="380" height="155" rx="14" fill="#111625" fill-opacity="0.85" stroke="#1f293d" stroke-width="1.2"/>
+        <line x1="0" y1="0" x2="4" y2="155" stroke="#3b82f6" stroke-width="4"/>
+        
+        <text x="20" y="28" class="font-mono" font-size="11" font-weight="700" fill="#60a5fa" letter-spacing="1">01 // CORE LANGUAGES &amp; BASICS</text>
+        
+        <!-- Chips -->
+        <g transform="translate(20, 48)">
+          <!-- Python -->
+          <g transform="translate(0, 0)">
+            <rect width="130" height="32" rx="8" fill="#1e293b" stroke="#3b82f6" stroke-width="1"/>
+            <text x="65" y="20" class="font-mono" font-size="11" font-weight="700" fill="#93c5fd" text-anchor="middle">🐍 Python 3.11+</text>
+          </g>
+          <!-- SQL -->
+          <g transform="translate(140, 0)">
+            <rect width="105" height="32" rx="8" fill="#1e293b" stroke="#ff9f43" stroke-width="1"/>
+            <text x="52" y="20" class="font-mono" font-size="11" font-weight="700" fill="#fcd34d" text-anchor="middle">💾 SQL / RDBMS</text>
+          </g>
+          <!-- Bash -->
+          <g transform="translate(255, 0)">
+            <rect width="85" height="32" rx="8" fill="#1e293b" stroke="#64748b" stroke-width="1"/>
+            <text x="42" y="20" class="font-mono" font-size="11" fill="#cbd5e1" text-anchor="middle">💻 Bash / CLI</text>
+          </g>
+
+          <!-- JSON / Schemas -->
+          <g transform="translate(0, 42)">
+            <rect width="140" height="32" rx="8" fill="#1e293b" stroke="#2ecc71" stroke-width="1"/>
+            <text x="70" y="20" class="font-mono" font-size="11" fill="#86efac" text-anchor="middle">📄 JSON / Contracts</text>
+          </g>
+          <!-- Git -->
+          <g transform="translate(150, 42)">
+            <rect width="100" height="32" rx="8" fill="#1e293b" stroke="#ff4757" stroke-width="1"/>
+            <text x="50" y="20" class="font-mono" font-size="11" fill="#fca5a5" text-anchor="middle">🌿 Git / GitHub</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- CATEGORY 2: UI TEST AUTOMATION -->
+      <g transform="translate(410, 0)">
+        <rect width="390" height="155" rx="14" fill="#111625" fill-opacity="0.85" stroke="#1f293d" stroke-width="1.2"/>
+        <line x1="0" y1="0" x2="4" y2="155" stroke="#2ecc71" stroke-width="4"/>
+        
+        <text x="20" y="28" class="font-mono" font-size="11" font-weight="700" fill="#4ade80" letter-spacing="1">02 // UI AUTOMATION WEAPONRY</text>
+
+        <g transform="translate(20, 48)">
+          <!-- Playwright -->
+          <g transform="translate(0, 0)">
+            <rect width="135" height="32" rx="8" fill="#1e293b" stroke="#2ecc71" stroke-width="1"/>
+            <text x="67" y="20" class="font-mono" font-size="11" font-weight="700" fill="#4ade80" text-anchor="middle">🎭 Playwright</text>
+          </g>
+          <!-- PyTest -->
+          <g transform="translate(145, 0)">
+            <rect width="115" height="32" rx="8" fill="#1e293b" stroke="#00f2fe" stroke-width="1"/>
+            <text x="57" y="20" class="font-mono" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="middle">🧪 PyTest</text>
+          </g>
+          <!-- POM -->
+          <g transform="translate(270, 0)">
+            <rect width="80" height="32" rx="8" fill="#1e293b" stroke="#a855f7" stroke-width="1"/>
+            <text x="40" y="20" class="font-mono" font-size="11" fill="#d8b4fe" text-anchor="middle">🏛️ POM</text>
+          </g>
+
+          <!-- Fixtures -->
+          <g transform="translate(0, 42)">
+            <rect width="165" height="32" rx="8" fill="#1e293b" stroke="#00d2d3" stroke-width="1"/>
+            <text x="82" y="20" class="font-mono" font-size="11" fill="#67e8f9" text-anchor="middle">⚙️ Reusable Fixtures</text>
+          </g>
+          <!-- Selenium -->
+          <g transform="translate(175, 42)">
+            <rect width="110" height="32" rx="8" fill="#1e293b" stroke="#64748b" stroke-width="1"/>
+            <text x="55" y="20" class="font-mono" font-size="11" fill="#cbd5e1" text-anchor="middle">🌐 Selenium</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- CATEGORY 3: API & BACKEND VALIDATION -->
+      <g transform="translate(0, 175)">
+        <rect width="380" height="155" rx="14" fill="#111625" fill-opacity="0.85" stroke="#1f293d" stroke-width="1.2"/>
+        <line x1="0" y1="0" x2="4" y2="155" stroke="#ff9f43" stroke-width="4"/>
+        
+        <text x="20" y="28" class="font-mono" font-size="11" font-weight="700" fill="#fcd34d" letter-spacing="1">03 // API &amp; BACKEND CONTRACTS</text>
+
+        <g transform="translate(20, 48)">
+          <!-- REST API -->
+          <g transform="translate(0, 0)">
+            <rect width="125" height="32" rx="8" fill="#1e293b" stroke="#ff9f43" stroke-width="1"/>
+            <text x="62" y="20" class="font-mono" font-size="11" font-weight="700" fill="#fcd34d" text-anchor="middle">⚡ REST APIs</text>
+          </g>
+          <!-- Requests -->
+          <g transform="translate(135, 0)">
+            <rect width="115" height="32" rx="8" fill="#1e293b" stroke="#f43f5e" stroke-width="1"/>
+            <text x="57" y="20" class="font-mono" font-size="11" font-weight="700" fill="#fda4af" text-anchor="middle">📡 Requests</text>
+          </g>
+          <!-- Postman -->
+          <g transform="translate(260, 0)">
+            <rect width="90" height="32" rx="8" fill="#1e293b" stroke="#fb923c" stroke-width="1"/>
+            <text x="45" y="20" class="font-mono" font-size="11" fill="#fed7aa" text-anchor="middle">📬 Postman</text>
+          </g>
+
+          <!-- RBAC Testing -->
+          <g transform="translate(0, 42)">
+            <rect width="160" height="32" rx="8" fill="#1e293b" stroke="#ec4899" stroke-width="1"/>
+            <text x="80" y="20" class="font-mono" font-size="11" fill="#f472b6" text-anchor="middle">🛡️ RBAC Authorization</text>
+          </g>
+          <!-- DB Integrity -->
+          <g transform="translate(170, 42)">
+            <rect width="160" height="32" rx="8" fill="#1e293b" stroke="#3b82f6" stroke-width="1"/>
+            <text x="80" y="20" class="font-mono" font-size="11" fill="#93c5fd" text-anchor="middle">🔍 SQL State Audits</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- CATEGORY 4: DEVOPS, CI/CD & METHODOLOGY -->
+      <g transform="translate(410, 175)">
+        <rect width="390" height="155" rx="14" fill="#111625" fill-opacity="0.85" stroke="#1f293d" stroke-width="1.2"/>
+        <line x1="0" y1="0" x2="4" y2="155" stroke="#a855f7" stroke-width="4"/>
+        
+        <text x="20" y="28" class="font-mono" font-size="11" font-weight="700" fill="#c084fc" letter-spacing="1">04 // CI/CD &amp; INFRASTRUCTURE</text>
+
+        <g transform="translate(20, 48)">
+          <!-- GitHub Actions -->
+          <g transform="translate(0, 0)">
+            <rect width="165" height="32" rx="8" fill="#1e293b" stroke="#a855f7" stroke-width="1"/>
+            <text x="82" y="20" class="font-mono" font-size="11" font-weight="700" fill="#d8b4fe" text-anchor="middle">🚀 GitHub Actions</text>
+          </g>
+          <!-- Docker -->
+          <g transform="translate(175, 0)">
+            <rect width="105" height="32" rx="8" fill="#1e293b" stroke="#0284c7" stroke-width="1"/>
+            <text x="52" y="20" class="font-mono" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="middle">🐳 Docker</text>
+          </g>
+          <!-- Linux -->
+          <g transform="translate(290, 0)">
+            <rect width="70" height="32" rx="8" fill="#1e293b" stroke="#64748b" stroke-width="1"/>
+            <text x="35" y="20" class="font-mono" font-size="11" fill="#cbd5e1" text-anchor="middle">🐧 Linux</text>
+          </g>
+
+          <!-- PyTest-HTML / Allure -->
+          <g transform="translate(0, 42)">
+            <rect width="160" height="32" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1"/>
+            <text x="80" y="20" class="font-mono" font-size="11" fill="#6ee7b7" text-anchor="middle">📊 PyTest HTML / RCA</text>
+          </g>
+          <!-- Jira -->
+          <g transform="translate(170, 42)">
+            <rect width="150" height="32" rx="8" fill="#1e293b" stroke="#0284c7" stroke-width="1"/>
+            <text x="75" y="20" class="font-mono" font-size="11" fill="#93c5fd" text-anchor="middle">🎯 Jira / Defect RCA</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- Card Border -->
+    <rect x="0.75" y="0.75" width="1278.5" height="458.5" rx="23.25" fill="none" stroke="#253046" stroke-width="1.5"/>
+  </g>
+</svg>

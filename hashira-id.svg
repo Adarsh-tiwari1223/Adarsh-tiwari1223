@@ -1,0 +1,243 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 490" width="1280" height="490" role="img" aria-label="Demon Slayer Corps Official ID &amp; Automation Architecture">
+  <title>Demon Slayer Corps Official ID &amp; Automation Architecture</title>
+  <defs>
+    <style>
+      @keyframes goldSweep {
+        0% { transform: translateX(-180px) rotate(20deg); opacity: 0; }
+        25% { opacity: 0.8; }
+        50%, 100% { transform: translateX(450px) rotate(20deg); opacity: 0; }
+      }
+      @keyframes pulseNode {
+        0%, 100% { filter: drop-shadow(0 0 6px rgba(0, 242, 254, 0.4)); }
+        50% { filter: drop-shadow(0 0 14px rgba(46, 204, 113, 0.7)); }
+      }
+      @keyframes dotFlow {
+        from { stroke-dashoffset: 40; }
+        to { stroke-dashoffset: 0; }
+      }
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace; }
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif; font-weight: 700; }
+      .font-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif; }
+      .holo-sheen { animation: goldSweep 4.5s ease-in-out infinite; }
+      .cable-flow { stroke-dasharray: 6 6; animation: dotFlow 1.2s linear infinite; }
+      .node-glow { animation: pulseNode 3s ease-in-out infinite; }
+    </style>
+
+    <pattern id="idPat" width="30" height="30" patternUnits="userSpaceOnUse">
+      <rect width="15" height="15" fill="#0c1018" opacity="0.6"/>
+      <rect x="15" y="0" width="15" height="15" fill="#07090f"/>
+      <rect x="0" y="15" width="15" height="15" fill="#07090f"/>
+      <rect x="15" y="15" width="15" height="15" fill="#0c1018" opacity="0.6"/>
+    </pattern>
+
+    <linearGradient id="idBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090b10"/>
+      <stop offset="50%" stop-color="#0d121c"/>
+      <stop offset="100%" stop-color="#07090e"/>
+    </linearGradient>
+
+    <!-- Gold Foil Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="50%" stop-color="#ffa500"/>
+      <stop offset="100%" stop-color="#ff4500"/>
+    </linearGradient>
+
+    <linearGradient id="sheenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffd700" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="cableGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#ff4757"/>
+    </linearGradient>
+
+    <clipPath id="passClip">
+      <rect width="360" height="400" rx="18"/>
+    </clipPath>
+
+    <clipPath id="idCardRadius">
+      <rect width="1280" height="490" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#idCardRadius)">
+    <rect width="1280" height="490" fill="url(#idBg)"/>
+    <rect width="1280" height="490" fill="url(#idPat)"/>
+
+    <!-- Section Header -->
+    <g transform="translate(60, 36)">
+      <rect x="0" y="0" width="36" height="6" rx="3" fill="#ff4757"/>
+      <text x="48" y="7" class="font-mono" font-size="11" font-weight="700" fill="#2ecc71" letter-spacing="2">隊士票 · CORPS CREDENTIAL &amp; ARCHITECTURE</text>
+      <text x="0" y="34" class="font-sans" font-size="24" fill="#f8fafc">Hashira Identification &amp; Testing Architecture</text>
+    </g>
+
+    <!-- ==================== LEFT: HASHIRA WOODEN/GOLD PASS ==================== -->
+    <g transform="translate(60, 85)">
+      <!-- Card Container with Clip -->
+      <g clip-path="url(#passClip)">
+        <!-- Pass Background -->
+        <rect width="360" height="400" rx="18" fill="#111624" stroke="#253046" stroke-width="1.5"/>
+        <rect x="8" y="8" width="344" height="384" rx="14" fill="none" stroke="#ff4757" stroke-opacity="0.25" stroke-dasharray="6 4"/>
+
+        <!-- Large Background Watermark Kanji -->
+        <text x="180" y="270" font-family="'Segoe UI', 'Noto Sans JP', sans-serif" font-weight="900" font-size="240" fill="#ff4757" fill-opacity="0.05" text-anchor="middle">柱</text>
+
+        <!-- Top Lanyard Bar -->
+        <rect x="135" y="0" width="90" height="14" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+        <ellipse cx="180" cy="7" rx="10" ry="3.5" fill="#090b10"/>
+
+        <!-- Header Ribbon -->
+        <g transform="translate(24, 26)">
+          <text class="font-mono" font-size="10.5" font-weight="700" fill="#2ecc71" letter-spacing="1.5">KISATSUTAI CORPS // 鬼殺隊</text>
+          <text y="22" class="font-sans" font-size="18" fill="#ffffff">Adarsh Tiwari</text>
+          <text y="38" class="font-mono" font-size="11" fill="#94a3b8">Software Development Engineer in Test</text>
+        </g>
+
+        <!-- Golden Seal Medallion -->
+        <g transform="translate(250, 26)">
+          <circle cx="36" cy="36" r="32" fill="#1a2236" stroke="url(#goldGrad)" stroke-width="2"/>
+          <text x="36" y="42" font-family="'Segoe UI', 'Noto Sans JP', sans-serif" font-weight="900" font-size="24" fill="url(#goldGrad)" text-anchor="middle">滅</text>
+          <text x="36" y="58" class="font-mono" font-size="7" font-weight="700" fill="#ffd700" text-anchor="middle">HASHIRA</text>
+        </g>
+
+        <!-- Divider Line -->
+        <line x1="24" y1="92" x2="336" y2="92" stroke="#1f293d" stroke-width="1.2"/>
+
+        <!-- Core Pass Attributes -->
+        <g transform="translate(24, 114)" class="font-mono" font-size="11">
+          <!-- Row 1 -->
+          <text fill="#64748b">ASSIGNED RANK :</text>
+          <text x="145" fill="#2ecc71" font-weight="700">HASHIRA (QUALITY PILLAR)</text>
+
+          <!-- Row 2 -->
+          <text y="26" fill="#64748b">NICHIRIN BLADE :</text>
+          <text x="145" y="26" fill="#60a5fa" font-weight="700">PYTHON 3.11+ / PLAYWRIGHT</text>
+
+          <!-- Row 3 -->
+          <text y="52" fill="#64748b">CORPS SPECIALTY :</text>
+          <text x="145" y="52" fill="#ff9f43" font-weight="700">RBAC &amp; STATE CONSISTENCY</text>
+
+          <!-- Row 4 -->
+          <text y="78" fill="#64748b">HEADQUARTERS :</text>
+          <text x="145" y="78" fill="#cbd5e1">INDIA (REMOTE CAPABLE)</text>
+
+          <!-- Row 5 -->
+          <text y="104" fill="#64748b">DISPATCH RECORD :</text>
+          <text x="145" y="104" fill="#f43f5e" font-weight="700">Adarsh-tiwari1223</text>
+        </g>
+
+        <!-- KPI Meter Strip -->
+        <g transform="translate(24, 252)">
+          <rect width="312" height="65" rx="10" fill="#0e131f" stroke="#1f2937" stroke-width="1"/>
+          
+          <g transform="translate(18, 22)">
+            <text class="font-mono" font-size="10" fill="#64748b">DEFECT ESCAPE</text>
+            <text y="24" class="font-sans" font-size="20" fill="#2ecc71">0.00%</text>
+          </g>
+
+          <line x1="110" y1="12" x2="110" y2="52" stroke="#1f2937" stroke-width="1"/>
+
+          <g transform="translate(126, 22)">
+            <text class="font-mono" font-size="10" fill="#64748b">AUTOMATION</text>
+            <text y="24" class="font-sans" font-size="20" fill="#00f2fe">POM+API</text>
+          </g>
+
+          <line x1="216" y1="12" x2="216" y2="52" stroke="#1f2937" stroke-width="1"/>
+
+          <g transform="translate(232, 22)">
+            <text class="font-mono" font-size="10" fill="#64748b">CI DETERMINISM</text>
+            <text y="24" class="font-sans" font-size="20" fill="#ff4757">100%</text>
+          </g>
+        </g>
+
+        <!-- Barcode / Hologram Strip -->
+        <g transform="translate(24, 335)">
+          <text class="font-mono" font-size="8.5" fill="#475569" letter-spacing="3.5">|| | |||| || ||| ||||| |||| || |||||| | |||</text>
+          <text y="16" class="font-mono" font-size="9" fill="#2ecc71">VERIFIED SECURE BY GITHUB ACTIONS CI/CD</text>
+        </g>
+
+        <!-- Traveling Holographic Foil Sheen -->
+        <rect x="-100" y="0" width="80" height="400" fill="url(#sheenGrad)" class="holo-sheen"/>
+      </g>
+    </g>
+
+    <!-- ==================== RIGHT: AUTOMATION ARCHITECTURE PIPELINE ==================== -->
+    <g transform="translate(460, 85)">
+      <rect width="760" height="400" rx="18" fill="#101524" fill-opacity="0.9" stroke="#1e293b" stroke-width="1.5"/>
+
+      <!-- Title inside Flow -->
+      <g transform="translate(28, 28)">
+        <text class="font-mono" font-size="11" font-weight="700" fill="#00f2fe" letter-spacing="1.5">FULL-STACK AUTOMATION VALIDATION MODEL</text>
+        <text y="18" class="font-sub" font-size="12" fill="#64748b">
+          Verifying what the user sees AND what the database commits under pressure.
+        </text>
+      </g>
+
+      <!-- Connecting Electrical Cables with Pulses -->
+      <path d="M 170,120 L 250,120" stroke="#334155" stroke-width="2"/>
+      <path d="M 170,120 L 250,120" stroke="url(#cableGrad)" stroke-width="2" class="cable-flow"/>
+
+      <path d="M 450,120 L 530,120" stroke="#334155" stroke-width="2"/>
+      <path d="M 450,120 L 530,120" stroke="url(#cableGrad)" stroke-width="2" class="cable-flow"/>
+
+      <path d="M 350,170 L 350,225" stroke="#334155" stroke-width="2"/>
+      <path d="M 350,170 L 350,225" stroke="url(#cableGrad)" stroke-width="2" class="cable-flow"/>
+
+      <path d="M 350,285 L 350,335" stroke="#334155" stroke-width="2"/>
+      <path d="M 350,285 L 350,335" stroke="url(#cableGrad)" stroke-width="2" class="cable-flow"/>
+
+      <!-- PIPELINE NODE 1: TRIGGER -->
+      <g transform="translate(28, 85)">
+        <rect width="142" height="70" rx="10" fill="#141c2e" stroke="#3b82f6" stroke-width="1.5"/>
+        <text x="16" y="24" class="font-mono" font-size="9.5" font-weight="700" fill="#60a5fa">STAGE 01 // INPUT</text>
+        <text x="16" y="44" class="font-sans" font-size="13" fill="#f8fafc">User / PR Action</text>
+        <text x="16" y="58" class="font-mono" font-size="9" fill="#94a3b8">GitHub Actions Trigger</text>
+      </g>
+
+      <!-- PIPELINE NODE 2A: UI LAYER (PLAYWRIGHT) -->
+      <g transform="translate(250, 70)">
+        <rect width="200" height="48" rx="8" fill="#141c2e" stroke="#2ecc71" stroke-width="1.5"/>
+        <text x="16" y="20" class="font-mono" font-size="9.5" font-weight="700" fill="#4ade80">STAGE 02A // UI LAYER</text>
+        <text x="16" y="38" class="font-sans" font-size="12" fill="#f8fafc">Playwright POM + Fixtures</text>
+      </g>
+
+      <!-- PIPELINE NODE 2B: API LAYER (REQUESTS) -->
+      <g transform="translate(250, 126)">
+        <rect width="200" height="48" rx="8" fill="#141c2e" stroke="#00f2fe" stroke-width="1.5"/>
+        <text x="16" y="20" class="font-mono" font-size="9.5" font-weight="700" fill="#38bdf8">STAGE 02B // API LAYER</text>
+        <text x="16" y="38" class="font-sans" font-size="12" fill="#f8fafc">REST Contract &amp; RBAC Validation</text>
+      </g>
+
+      <!-- PIPELINE NODE 3: BUSINESS WORKFLOW -->
+      <g transform="translate(530, 85)">
+        <rect width="200" height="70" rx="10" fill="#141c2e" stroke="#ff9f43" stroke-width="1.5"/>
+        <text x="16" y="24" class="font-mono" font-size="9.5" font-weight="700" fill="#fcd34d">STAGE 03 // WORKFLOW</text>
+        <text x="16" y="44" class="font-sans" font-size="13" fill="#f8fafc">Cross-Module State</text>
+        <text x="16" y="58" class="font-mono" font-size="9" fill="#94a3b8">Multi-role Transitions</text>
+      </g>
+
+      <!-- PIPELINE NODE 4: SQL / DATABASE CHECK -->
+      <g transform="translate(210, 225)">
+        <rect width="280" height="60" rx="10" fill="#161b2b" stroke="#a855f7" stroke-width="1.5"/>
+        <text x="18" y="22" class="font-mono" font-size="9.5" font-weight="700" fill="#c084fc">STAGE 04 // DATABASE INTEGRITY CHECK</text>
+        <text x="18" y="42" class="font-sans" font-size="13" fill="#f8fafc">SQL Verification &amp; Data Consistency</text>
+        <text x="18" y="54" class="font-mono" font-size="9" fill="#94a3b8">Checking disk state matches UI contract</text>
+      </g>
+
+      <!-- PIPELINE NODE 5: FINAL ASSERTION -->
+      <g transform="translate(190, 335)">
+        <rect width="320" height="50" rx="10" fill="#121e25" stroke="#2ecc71" stroke-width="2" class="node-glow"/>
+        <circle cx="20" cy="25" r="5" fill="#2ecc71"/>
+        <text x="35" y="22" class="font-mono" font-size="10" font-weight="700" fill="#2ecc71">FINAL ASSERTION &amp; ZERO-DEFECT PASS</text>
+        <text x="35" y="38" class="font-mono" font-size="10" fill="#cbd5e1">Deterministic Quality · Traced RCA Evidence</text>
+      </g>
+    </g>
+
+    <!-- Card Border -->
+    <rect x="0.75" y="0.75" width="1278.5" height="488.5" rx="23.25" fill="none" stroke="#253046" stroke-width="1.5"/>
+  </g>
+</svg>
