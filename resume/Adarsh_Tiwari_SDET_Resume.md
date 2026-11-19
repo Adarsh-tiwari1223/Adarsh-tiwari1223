@@ -1,80 +1,80 @@
 # ADARSH TIWARI
-**QA Engineer | SDET | Automation & API Testing Specialist**  
-📍 Jaunpur / Varanasi, Uttar Pradesh, India · **Open to Relocation** (Bangalore, Gurgaon/Delhi NCR, Hyderabad, Noida, Pune, Remote)  
-📞 [+91 7000426836](tel:+917000426836) · ✉️ [tiwarishrey0@gmail.com](mailto:tiwarishrey0@gmail.com)  
-🔗 [LinkedIn: adarsh-shrey-tiwari](https://www.linkedin.com/in/adarsh-shrey-tiwari) · 🐙 [GitHub: Adarsh-tiwari1223](https://github.com/Adarsh-tiwari1223)
+**Software Development Engineer in Test (SDET) | QA Automation Engineer**  
+Jaunpur / Varanasi, Uttar Pradesh, India (Open to Relocation) | +91 7000426836 | [tiwarishrey0@gmail.com](mailto:tiwarishrey0@gmail.com)  
+[linkedin.com/in/adarsh-shrey-tiwari](https://www.linkedin.com/in/adarsh-shrey-tiwari) | [github.com/Adarsh-tiwari1223](https://github.com/Adarsh-tiwari1223)
 
 ---
 
 ## PROFESSIONAL SUMMARY
-Detail-oriented **QA Engineer / SDET** with hands-on experience in **Manual, API, and Playwright Test Automation** across enterprise **HRMS, Payroll, US IT Recruitment, and Travel Management** domains. Proficient in designing scalable test automation frameworks using **Python, Playwright, and PyTest** with the **Page Object Model (POM)**. Strong expertise in validating complex business workflows, Role-Based Access Control (RBAC), multi-tier REST API contracts, and SQL database state consistency. Skilled in leveraging **AI-assisted testing tools** for accelerated test case design, edge-case discovery, and test data synthesis.
+Experienced **Software Development Engineer in Test (SDET) / QA Engineer** with in-depth expertise across **Manual Testing, REST API Testing, and Playwright Test Automation** in enterprise-scale web applications. Proven track record in designing, building, and scaling automated testing frameworks using **Python, Playwright, and PyTest** implementing the **Page Object Model (POM)** architecture. Specialized in multi-tier verification covering complex business workflows, multi-role access controls (RBAC), API contract schemas, and transactional database integrity. Brings strong analytical problem-solving skills across enterprise **HRMS & Payroll**, **US IT Recruitment**, and **Travel Management** platforms, backed by a Master of Computer Applications (MCA) degree.
 
 ---
 
-## TECHNICAL SKILLS
+## TECHNICAL COMPETENCIES
 
-- **Test Automation:** Playwright (Python), PyTest, Selenium WebDriver (Python), Page Object Model (POM), Data-Driven Testing
-- **API & Integration Testing:** REST APIs, Postman, Python Requests Library, Request/Response Payload Validation, JSON Schema Validation
-- **Database & Backend Validation:** SQL Queries, Relational Databases, Transactional Consistency & Backend State Auditing
-- **Testing Methodologies:** Functional, Regression, Smoke, Sanity, Integration, End-to-End (E2E), Exploratory, UAT, Boundary Value Analysis, Negative Testing, RBAC Testing
-- **Test Management & Lifecycle:** STLC, SDLC, Requirement Analysis, Test Scenario & Test Case Design, Defect Lifecycle Management, Release Sign-off
-- **AI-Assisted Testing:** AI-Powered Test Case Generation, Edge-Case Identification, Test Data Synthesis, Automation Script Assistance
-- **Tools & Environments:** Git, GitHub, VS Code, Chrome DevTools, Jira, Docker, Linux, Windows, Excel / Google Sheets
+- **Test Automation:** Playwright (Python), PyTest, Selenium WebDriver (Python), Page Object Model (POM), Data-Driven Frameworks, Reusable Scope-Aware Fixtures, Headless Execution
+- **API & Backend Testing:** RESTful API Validation, Postman, Python Requests Library, Status Codes, JSON Schema Contracts, Request/Response Payload Assertions, Header & Token Validation
+- **Database & Data Integrity:** SQL Queries, Relational Database Auditing, Backend State Verification, Data Consistency Checks, Transaction Rollback Auditing
+- **Testing Methodologies:** Functional Testing, Regression Testing, Smoke & Sanity Testing, Integration Testing, End-to-End (E2E), Exploratory Testing, UAT, Boundary Value Analysis, Negative Testing
+- **Test Management & CI/CD:** Requirement Traceability, Test Scenario Creation, Test Case Design, Defect Lifecycle Management, Jira, GitHub Actions (CI/CD Pipelines), Docker, Git, Linux
+- **AI-Assisted QA:** AI-Powered Test Scenario Expansion, Edge-Case Identification, Synthetic Test Data Generation, Automation Scripting Assistance & Optimization
 
 ---
 
 ## PROFESSIONAL EXPERIENCE
 
-### QA Engineer
+### QA Engineer / SDET
 **TEK Inspirations LLC (Originator Informatics Pvt. Ltd.)** · Varanasi, Uttar Pradesh  
 *Jul 2025 – Present*
 
-- Spearhead end-to-end testing across 3 core enterprise platforms: **HRMS & Payroll System (HR Lense)**, **US IT Recruitment Management System**, and **Travel Management Portal**.
-- Author and execute comprehensive test scenarios and test cases from sprint user stories, PRDs, and business workflow specifications.
-- Execute rigorous Functional, Integration, System, Regression, Exploratory, and UAT test cycles, ensuring zero critical defects escape to production releases.
-- Architect automated UI test suites using **Python, Playwright, and PyTest** adhering to the **Page Object Model (POM)** for critical business paths.
-- Perform multi-tier API testing using **Postman, Python Requests, and Chrome DevTools**, verifying HTTP status codes, JSON payload schemas, headers, and authentication tokens.
-- Validate complex **Role-Based Access Control (RBAC)** across multi-tier user hierarchies (Super Admin, HR Manager, Recruiter, Employee, Client).
-- Conduct direct **SQL database validation** to ensure UI transactions (payroll calculations, attendance records, consultant onboarding) commit accurately to disk.
-- Log, track, and verify defects with clear reproduction steps, screenshots, network logs, and severity ratings in defect tracking systems.
-- Partner closely with developers, business analysts, and release managers in Agile/Scrum ceremonies to validate defect fixes and expedite release sign-offs.
+- Led quality engineering and test execution across 3 flagship enterprise products: **HR Lense (HRMS & Payroll System)**, **US IT Recruitment Management System**, and **Travel Management System**.
+- Analyzed sprint user stories, Product Requirement Documents (PRDs), and business workflow architectures to design comprehensive test plans, test scenarios, and detailed test cases with full requirements coverage.
+- Executed end-to-end testing cycles encompassing Functional, Regression, Smoke, Sanity, Integration, System, and User Acceptance Testing (UAT), ensuring zero Sev-1 defects escaped to client environments.
+- Architected automated UI test suites using **Python, Playwright, and PyTest** following the **Page Object Model (POM)**, replacing manual regression overhead and accelerating regression cycle completion.
+- Engineered custom, scope-aware **PyTest fixtures** for session authentication, browser context configuration, and test data setup, eliminating repetitive login actions across test modules.
+- Conducted extensive REST API validation using **Postman and Python Requests**, asserting status codes, payload structures, JSON schemas, response latency, and authorization token lifecycles.
+- Validated multi-tier **Role-Based Access Control (RBAC)** and approval hierarchies across Super Admin, HR Manager, Recruiter, and Employee roles, verifying data segregation and preventing permission leaks.
+- Executed direct **SQL database queries** to validate backend state transitions, confirming that critical financial, attendance, and onboarding transactions committed accurately to relational tables.
+- Documented, tracked, and verified defect lifecycles in **Jira** with complete diagnostic logs, reproduction steps, network requests, and screenshots; collaborated closely with developers during sprint triage.
 
 ---
 
-## KEY PROJECTS
+## KEY ENTERPRISE PROJECTS
 
-### 1. HR Lense — HRMS & Payroll Enterprise System
-*Technologies: Python, Playwright, PyTest, REST APIs, Postman, SQL, POM*
-- Validated interconnected enterprise modules: Employee Lifecycle, Attendance & Shift Tracking, Leave Approvals, Payroll Processing, and Document Verification.
-- Engineered a custom **Python-based payroll validation utility** comparing payroll CSV/Excel export figures against backend REST API responses, identifying calculation discrepancies with 100% precision.
-- Validated complex leave deduction algorithms, tax slabs, attendance hour mappings, and multi-tier approval chains.
-- Designed automated regression scripts covering cross-module data dependencies to guarantee data integrity across employee state changes.
+### 1. HR Lense — Enterprise HRMS & Payroll Platform
+*Technologies: Python, Playwright, PyTest, REST APIs, SQL, POM, Requests*
+- Validated mission-critical enterprise modules: Employee Onboarding, Attendance & Shift Management, Leave Accrual & Approvals, Payroll Generation, and Document Management.
+- Engineered a specialized **Python-based payroll validation utility** that programmatically parses exported payroll calculations (gross salary, allowances, deductions, net pay) and validates them against backend API and database records, identifying calculation mismatches with 100% precision.
+- Automated core regression paths using **Playwright with Python**, utilizing dynamic locators and event-driven assertions to achieve resilient, headless execution across multiple browsers.
+- Executed multi-tier integration testing across interrelated workflows (e.g., leave deduction impacting salary generation), ensuring cross-module data consistency across the entire employee lifecycle.
+- Wrote targeted SQL queries to verify database consistency across multi-table relationships, validating that payroll lockouts, status updates, and audit trails accurately reflect business rules.
 
 ### 2. US IT Recruitment Management System
-*Technologies: Playwright, Python, Postman, REST APIs, RBAC Testing*
-- Validated end-to-end US IT staffing workflows: Client Lead Generation, Job Posting, Candidate Sourcing, Interview Scheduling, Submissions, and Consultant Onboarding.
-- Conducted exhaustive negative and boundary testing on multi-tenant access controls, ensuring strict data isolation between recruiting teams.
-- Validated API synchronization between candidate pipeline stages and backend applicant tracking databases.
-- Automated core recruitment happy-path and critical path scenarios using **Playwright** with reusable component fixtures.
+*Technologies: Playwright, Python, Postman, REST API Testing, RBAC, Jira*
+- Validated the end-to-end staffing lifecycle: Client Requirement Acquisition, Job Posting, Candidate Sourcing, Client Submissions, Interview Scheduling, and Consultant Onboarding.
+- Conducted rigorous boundary and negative testing on multi-tenant access controls, verifying that recruitment teams and external vendor portals maintain strict candidate data isolation.
+- Performed REST API contract testing to guarantee data integrity between the applicant tracking interface and backend submission databases.
+- Automated candidate onboarding workflows and status transition journeys using **Playwright** component fixtures, reducing manual pipeline verification effort.
+- Identified and logged high-impact edge cases involving concurrent candidate submissions, interview rescheduling conflicts, and duplicate consultant profile creation.
 
-### 3. Travel Management System (Client Portal & Admin Panel)
-*Technologies: Manual Testing, API Testing, Chrome DevTools, SQL*
-- Validated end-to-end booking workflows, customized itinerary creation, lead inquiry lifecycles, and travel package pricing tiers.
-- Tested bi-directional data synchronization between the public-facing client portal and internal administrative management console.
-- Tested edge cases involving session timeouts, payment gateway mock transitions, booking cancellations, and currency conversions.
+### 3. Travel Management System (Client Portal & Administrative Console)
+*Technologies: Manual Testing, REST APIs, SQL, Chrome DevTools, Cross-Browser*
+- Executed comprehensive testing across inquiry management, customized itinerary generation, travel package configuration, and booking reservation lifecycles.
+- Validated real-time bi-directional data synchronization between the customer-facing booking portal and the internal administrative operations panel.
+- Executed negative scenarios and edge cases around session timeouts, currency conversions, payment gateway mock responses, and booking cancellation state rollbacks.
+
+---
+
+## MODERN QA ENGINEERING & AI-ASSISTED PRACTICES
+- **AI-Assisted Test Engineering:** Leverages generative AI tools to systematically uncover non-obvious boundary conditions, generate complex synthetic test datasets, and optimize automation scripts.
+- **Multi-Layer Quality Philosophy:** Champions validation beyond UI DOM checks by verifying what the front-end renders, what the API returns, and what the database commits to disk.
+- **Open-Source & Automation Architecture:** Active maintainer of the open-source **HRlens_Playwright** test suite and interactive developer portfolio at [github.com/Adarsh-tiwari1223](https://github.com/Adarsh-tiwari1223).
 
 ---
 
 ## EDUCATION
 
 - **Master of Computer Applications (MCA)**  
-  *Kashi Institute of Technology* · **2025**
+  *Kashi Institute of Technology* | Graduated: 2025
 - **Bachelor of Science (B.Sc.)**  
-  *Allahabad State University* · **2022**
-
----
-
-## HIGHLIGHTS & DIFFERENTIATORS
-- **AI-Accelerated QA:** Pioneer in leveraging generative AI workflows to uncover non-obvious boundary conditions and generate synthetic edge-case test data.
-- **Full-Stack QA Mindset:** Asserts beyond UI surface checks by pairing front-end assertions with API schema contracts and SQL database consistency.
-- **Active Open-Source Portfolio:** Maintainer of the **[HRlens_Playwright](https://github.com/Adarsh-tiwari1223/HRlens_Playwright)** automation framework and animated GitHub profile.
+  *Allahabad State University* | Graduated: 2022
