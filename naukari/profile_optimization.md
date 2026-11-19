@@ -1,4 +1,5 @@
 # 🎯 Naukri.com Profile Optimization & Ranking Guide
+*Tailored for Adarsh Tiwari (QA Engineer / SDET)*
 
 Naukri is India's highest-volume recruitment platform. The Naukri algorithm uses **Keyword Density**, **Profile Freshness**, and **Completeness Score (100%)** to rank candidates in recruiter search queries (Resdex).
 
@@ -6,9 +7,11 @@ Naukri is India's highest-volume recruitment platform. The Naukri algorithm uses
 
 ## 1. Resume Headline (Max 250 Characters)
 
-> **SDET with expertise in Python, Playwright & PyTest | End-to-End UI & REST API Automation | SQL Backend Validation | CI/CD Pipeline Integration (GitHub Actions, Docker) | Page Object Model (POM)**
+Copy and paste this into your Naukri **Resume Headline**:
 
-*Character Count: ~215 characters (Fits comfortably within the 250-character limit).*
+> **QA Engineer / SDET with experience in Playwright (Python), PyTest, Manual & REST API Testing | Postman, SQL, POM Framework | TEK Inspirations (Originator Informatics) | MCA 2025 | Open to Relocation**
+
+*Character count: ~209 characters (Fits comfortably within the 250-character limit).*
 
 ---
 
@@ -17,7 +20,7 @@ Naukri is India's highest-volume recruitment platform. The Naukri algorithm uses
 Add **all** of the following exact keywords to your Naukri **Key Skills** tags. Recruiters filter directly by these tags:
 
 ```text
-Playwright, PyTest, Python, SDET, Test Automation, REST API Testing, Requests, SQL, Backend Testing, Page Object Model (POM), CI/CD, GitHub Actions, Docker, API Validation, Negative Testing, Boundary Value Analysis, Role-Based Access Control (RBAC), Regression Automation, Jira, Root Cause Analysis (RCA), Postman, Linux, End-to-End Testing
+Playwright, Python, PyTest, Manual Testing, API Testing, Postman, REST APIs, SQL, Backend Testing, Page Object Model (POM), Functional Testing, Regression Testing, Test Scenario Creation, Test Case Design, Defect Lifecycle, Jira, SDLC, STLC, Integration Testing, End-to-End Testing, Cross-Browser Testing, UAT, AI-Assisted Testing, HRMS Testing, US IT Recruitment Testing, Git, GitHub
 ```
 
 ---
@@ -27,44 +30,67 @@ Playwright, PyTest, Python, SDET, Test Automation, REST API Testing, Requests, S
 Paste this into your Naukri **Profile Summary** section:
 
 ```text
-Software Development Engineer in Test (SDET) focused on automated testing of modern web applications and REST APIs using Python, Playwright, and PyTest.
+QA Engineer / SDET with hands-on experience in Manual Testing, REST API Testing, and Playwright Test Automation using Python across enterprise HRMS, Payroll, US IT Staffing, and Travel Management domains.
 
-Core Technical Expertise:
-• UI Automation: Built scalable test automation frameworks using Playwright and PyTest with Page Object Model (POM) and scope-aware fixtures, eliminating flaky tests with event-driven synchronization.
-• API Testing: Automated REST API contract validation, JSON schema validation, and Role-Based Access Control (RBAC) boundaries using Python Requests and Postman.
-• Backend/Data Validation: Direct SQL database auditing to verify that backend state transitions match UI actions and business rules.
-• CI/CD & DevOps: Integrated regression suites into GitHub Actions pipelines with Docker for automated execution on every pull request, capturing artifacts, HTML reports, and trace logs.
-• Defect Management: Root Cause Analysis (RCA), boundary value testing, and defect lifecycle tracking in Jira.
+Core Technical Strengths:
+• Test Automation: Building automation frameworks using Python, Playwright, and PyTest adhering to Page Object Model (POM) and Data-Driven Testing principles.
+• API & Contract Testing: Testing RESTful APIs using Postman and Python Requests, validating status codes, JSON schema structures, authorization headers, and response payloads.
+• Database Validation: Writing direct SQL queries to verify backend transactional state and guarantee data consistency between UI workflows and database tables.
+• Test Design & Management: Requirement analysis, end-to-end test scenario creation, comprehensive test case design, defect tracking in Jira, and release validation across full SDLC & STLC lifecycles.
+• AI-Assisted QA: Utilizing AI tools for edge-case identification, boundary scenario discovery, synthetic test data generation, and test script acceleration.
 
-Key Project:
-• HRlens_Playwright: End-to-end test automation framework for enterprise HR management workflows covering employee lifecycle, attendance, permissions, and database consistency checks.
+Domain & Project Experience:
+• HR Lense: HRMS & Payroll management system (Employee lifecycle, attendance, leave approval chains, payroll discrepancy detection utility in Python).
+• US IT Recruitment System: End-to-end applicant tracking, job submissions, consultant management, and role-based access validation.
+• Travel Management System: Lead tracking, booking workflows, travel packages, and admin-client portal data synchronization.
 
-Open to SDET / Test Automation Engineer opportunities across Remote, Bangalore, Gurgaon/Delhi NCR, Hyderabad, and Noida.
+Education: MCA (2025, Kashi Institute of Technology) | B.Sc (2022, Allahabad State University).
+Location: Jaunpur / Varanasi, UP | Open to Relocation (Bangalore, Gurgaon/Delhi NCR, Hyderabad, Noida, Pune, Remote).
 ```
 
 ---
 
-## 4. Work Experience & Project Description (For HRlens / Automation)
+## 4. Current Employment Details (For Naukri Experience Section)
 
-### Designation: Software Development Engineer in Test (SDET)
-
-**Key Responsibilities & Achievements:**
-- Designed and maintained end-to-end automation frameworks using **Python, Playwright, and PyTest** adhering to the **Page Object Model (POM)**.
-- Automated 100+ UI scenarios across complex workflows (Role-Based Access Control, Attendance, Leave Management, Employee Records).
-- Implemented API test suites using **Python Requests** to validate status codes, response schemas, and RBAC isolation before UI execution.
-- Executed direct **SQL queries** to audit transactional database state, preventing silent data discrepancies.
-- Configured automated test runs in **GitHub Actions** CI/CD pipelines, reducing regression feedback loop time.
-- Conducted Root Cause Analysis (RCA) on defect escapes and documented reproducible defect tickets in Jira with logs and traces.
+- **Designation:** QA Engineer
+- **Company Name:** TEK Inspirations LLC (Originator Informatics Pvt. Ltd.)
+- **Employment Period:** Jul 2025 – Present
+- **Job Profile Summary:**
+```text
+• Executing Functional, Regression, Smoke, Sanity, Integration, System, and UAT test cycles across enterprise HRMS, US IT Recruitment, and Travel Management applications.
+• Authoring test scenarios and detailed test cases from sprint user stories, PRDs, and business workflow analysis.
+• Conducting REST API validation with Postman and Chrome DevTools to verify request-response consistency and backend data integrity.
+• Validating multi-tier Role-Based Access Control (RBAC), approval chains, and cross-module business logic.
+• Performing backend SQL database verification to ensure application transactions persist correctly.
+• Contributing to Playwright test automation framework development using Python and Page Object Model architecture.
+• Logging, tracking, and verifying defects with detailed reproduction steps, logs, and screenshots in Jira.
+```
 
 ---
 
-## 5. The Naukri Daily Search-Ranking Hack 🚀
+## 5. Projects Section in Naukri
 
-Recruiters filter candidate searches by **"Active in Last 1–3 Days"**. Candidates who haven't updated their profile in 30 days fall to page 10+.
+Add these 3 projects to your Naukri **Projects** section:
 
-### 60-Second Daily Routine:
-1. Log in to your Naukri account every morning between **9:00 AM – 10:30 AM**.
-2. Open your Profile ➔ Go to **Resume Headline** or **Key Skills**.
-3. Add a space or minor punctuation mark, then click **Save**.
-4. Alternatively, click **Update Resume** and re-upload your latest PDF resume.
-5. **Outcome:** Your profile timestamp resets to "Updated Today", placing your profile in the top 5% of recruiter search results.
+1. **HR Lense (HRMS & Payroll System)**
+   - *Role:* QA Engineer
+   - *Skills:* Python, Playwright, Postman, SQL, HRMS
+   - *Details:* Tested employee onboarding, attendance, leave approval hierarchies, and payroll calculations. Developed a Python verification utility to audit payroll CSV exports against backend API responses, eliminating calculation discrepancies.
+
+2. **US IT Recruitment Management System**
+   - *Role:* QA Engineer
+   - *Skills:* Playwright, Python, Postman, REST API, RBAC
+   - *Details:* Validated end-to-end staffing workflows from client lead generation and interview scheduling to consultant onboarding. Automated critical paths using Playwright.
+
+3. **Travel Management System**
+   - *Role:* QA Engineer
+   - *Skills:* Manual Testing, API Testing, SQL, Chrome DevTools
+   - *Details:* Tested client portal to admin panel synchronization, inquiry pipelines, booking workflows, and edge cases around session timeouts and currency formats.
+
+---
+
+## 6. The 60-Second Daily Rank Hack 🚀
+1. Log in between **9:00 AM – 10:30 AM IST**.
+2. Click **Edit** on your Resume Headline or Key Skills.
+3. Save it (or upload your updated PDF resume from `resume/`).
+4. This marks your profile as **"Active Today"**, ranking you in the top 5% of recruiter searches.

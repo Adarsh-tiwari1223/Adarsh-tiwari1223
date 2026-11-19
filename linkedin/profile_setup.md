@@ -1,4 +1,5 @@
 # 💼 LinkedIn Profile Optimization Guide
+*Tailored for Adarsh Tiwari (QA Engineer / SDET)*
 
 ---
 
@@ -6,9 +7,7 @@
 
 Replace your current headline with this exact copy:
 
-> **SDET | Python, Playwright & PyTest Automation | API Contract & SQL State Verification | CI/CD & Docker | Ex-HRlens Framework**
-
-*Why this works:* When recruiters use LinkedIn Recruiter search filters, they query keywords found in candidate headlines. This covers your primary language, test runner, framework, backend skills, and DevOps tools.
+> **QA Engineer / SDET | Playwright & Python Automation | REST API & Postman Testing | SQL Database Validation | TEK Inspirations | MCA 2025**
 
 ---
 
@@ -19,27 +18,50 @@ Paste this into your profile's **About** section:
 ```markdown
 I don't just find bugs. I find assumptions that were never tested.
 
-As a Software Development Engineer in Test (SDET), I build automation frameworks that validate both what the user sees on the screen and what the system commits to the database behind the UI.
+As a QA Engineer / SDET at TEK Inspirations LLC, I specialize in end-to-end software quality across enterprise web applications, covering Manual Testing, REST API validation, and Playwright Test Automation using Python.
 
-My testing approach goes beyond the happy path:
-• UI Automation: Playwright & PyTest with Page Object Model (POM), custom fixtures, auto-waiting locators, and zero-flaky test design.
-• API Contract Testing: REST API validation, JSON schemas, state transitions, and Role-Based Access Control (RBAC) boundaries using Python Requests.
-• Data & Backend Integrity: Direct SQL assertions to ensure database persistence accurately reflects business transactions.
-• CI/CD Integration: Containerized test suites running on GitHub Actions with automated HTML reporting, traces, and rapid RCA.
+My core areas of expertise:
+• Test Automation: Building maintainable, scalable automation suites with Python, Playwright, and PyTest using the Page Object Model (POM) and data-driven principles.
+• API & Contract Testing: Validating REST API endpoints, HTTP status codes, JSON schema consistency, and authentication headers using Postman and Python Requests.
+• Database & State Integrity: Performing SQL database audits to ensure backend transactions align 100% with UI state transitions.
+• Domain Experience: Deep testing expertise in HRMS & Payroll (HR Lense), US IT Recruitment & Staffing platforms, and Travel Management systems.
+• AI-Assisted Testing: Leveraging modern AI tools for edge-case identification, complex scenario mapping, and synthetic test data generation.
 
-🚀 Flagship Automation Framework:
-• HRlens_Playwright: End-to-end automation suite for enterprise HR management workflows covering employee lifecycle, attendance, permissions, and database consistency checks.
+🚀 Featured Project:
+• HR Lense Automation: Engineered a custom Python verification utility to audit payroll calculations against backend API responses, ensuring zero discrepancy between UI reports and backend databases.
 
-📍 Location: India (Open to Remote / Bangalore / Gurgaon / Hyderabad / Noida)
+📍 Location: Jaunpur / Varanasi, UP · Open to Relocation (Bangalore, Gurgaon/Delhi NCR, Hyderabad, Noida, Pune, Remote)
 📫 Email: tiwarishrey0@gmail.com
+📞 Phone: +91 7000426836
 🐙 GitHub: https://github.com/Adarsh-tiwari1223
 ```
 
 ---
 
-## 3. "Featured" Section Setup
+## 3. Experience Section Copy (For TEK Inspirations LLC)
 
-Add these two links to your LinkedIn **Featured** section to immediately prove your skills to visiting hiring managers:
+**Company:** TEK Inspirations LLC (Originator Informatics Pvt. Ltd.)  
+**Title:** QA Engineer  
+**Dates:** Jul 2025 – Present · Full-time  
+**Location:** Varanasi, Uttar Pradesh, India · On-site / Hybrid  
+
+**Description:**
+```text
+• Executing end-to-end testing across 3 core platforms: HR Lense (HRMS & Payroll), US IT Recruitment Management System, and Travel Management Portal.
+• Designing comprehensive test scenarios and test cases from sprint user stories, PRDs, and business workflow analysis.
+• Conducting manual Functional, Regression, Smoke, Sanity, Integration, Exploratory, and UAT testing.
+• Automating core user flows using Python, Playwright, and PyTest adhering to Page Object Model (POM) design patterns.
+• Performing REST API testing using Postman and Chrome DevTools to verify request-response consistency and backend contracts.
+• Verifying complex Role-Based Access Control (RBAC), multi-tier approval chains, and payroll calculation logic.
+• Writing SQL queries to validate backend database consistency and ensure data integrity across cross-module transactions.
+• Logging, tracking, and verifying defects with detailed reproduction steps, logs, and screenshots in Jira.
+```
+
+---
+
+## 4. "Featured" Section Setup
+
+Add these links to your LinkedIn **Featured** section:
 
 1. **Item 1: Interactive Developer Portfolio**
    - **URL:** `https://github.com/Adarsh-tiwari1223`
@@ -53,17 +75,19 @@ Add these two links to your LinkedIn **Featured** section to immediately prove y
 
 ---
 
-## 4. Top Skills to Pin (For Recruiter Endorsements)
+## 5. Skills Section (Top 5 Pinned Skills)
 
-Pin these top 3 skills to the top of your LinkedIn Skills section:
+Pin these top skills for recruiter search relevance:
 1. **Playwright**
-2. **PyTest**
-3. **Python (Programming Language)**
+2. **Python (Programming Language)**
+3. **Manual Testing & STLC**
+4. **API Testing & Postman**
+5. **SQL & Database Testing**
 
-Add these additional skills:
-- REST APIs & API Testing
-- SQL & Relational Databases
-- Continuous Integration and Continuous Delivery (CI/CD)
+Additional skills to add:
+- PyTest
 - Page Object Model (POM)
-- Docker
-- Software Development Engineer in Test (SDET)
+- Regression Testing
+- JIRA
+- AI-Assisted Testing
+- Git & GitHub
