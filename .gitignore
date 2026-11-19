@@ -17,3 +17,13 @@ node_modules/
 .temp/
 naukari/.naukri_browser_session/
 .naukri_session/
+
+# Exclude Image Files (Do not push images)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.tiff
+*.ico
