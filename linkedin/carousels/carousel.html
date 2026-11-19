@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Playwright 3-Tier Architecture Carousel</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #050811;
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #F8FAFC;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    @page {
+      size: 1080px 1350px;
+      margin: 0;
+    }
+
+    .slide {
+      width: 1080px;
+      height: 1350px;
+      position: relative;
+      background: linear-gradient(145deg, #070B14 0%, #0F172A 50%, #090E1A 100%);
+      padding: 70px 65px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+      page-break-after: always;
+      break-after: page;
+    }
+
+    /* Subtle background grid pattern */
+    .slide::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image: 
+        radial-gradient(circle at 15% 20%, rgba(56, 189, 248, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 80%, rgba(99, 102, 241, 0.08) 0%, transparent 40%),
+        linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .slide > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Header bar */
+    .header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 24px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .tag-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      color: #38BDF8;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 999px;
+    }
+
+    .slide-num {
+      color: #94A3B8;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    /* Content Area */
+    .content-area {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 30px 0;
+    }
+
+    h1 {
+      font-size: 44px;
+      font-weight: 800;
+      line-height: 1.25;
+      color: #FFFFFF;
+      margin-bottom: 18px;
+      letter-spacing: -0.5px;
+    }
+
+    .gradient-text {
+      background: linear-gradient(135deg, #38BDF8 0%, #818CF8 50%, #C084FC 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      font-size: 21px;
+      color: #94A3B8;
+      line-height: 1.5;
+      margin-bottom: 32px;
+      font-weight: 400;
+    }
+
+    /* Cards */
+    .card {
+      background: rgba(19, 28, 49, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      border-radius: 18px;
+      padding: 24px 28px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    }
+
+    .card-title {
+      font-size: 19px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .card-red {
+      background: rgba(239, 68, 68, 0.06);
+      border-color: rgba(239, 68, 68, 0.25);
+    }
+    .card-red .card-title { color: #F87171; }
+
+    .card-green {
+      background: rgba(52, 211, 153, 0.06);
+      border-color: rgba(52, 211, 153, 0.25);
+    }
+    .card-green .card-title { color: #34D399; }
+
+    .card-blue {
+      background: rgba(56, 189, 248, 0.06);
+      border-color: rgba(56, 189, 248, 0.25);
+    }
+    .card-blue .card-title { color: #38BDF8; }
+
+    .card-purple {
+      background: rgba(168, 85, 247, 0.06);
+      border-color: rgba(168, 85, 247, 0.25);
+    }
+    .card-purple .card-title { color: #C084FC; }
+
+    /* Code Block */
+    .code-box {
+      background: #090D16;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 14px;
+      padding: 18px 22px;
+      font-family: 'JetBrains Mono', Consolas, monospace;
+      font-size: 14.5px;
+      line-height: 1.6;
+      color: #E2E8F0;
+      overflow: hidden;
+      margin-top: 10px;
+    }
+    .code-comment { color: #64748B; font-style: italic; }
+    .code-keyword { color: #F43F5E; font-weight: 600; }
+    .code-func { color: #38BDF8; font-weight: 600; }
+    .code-str { color: #34D399; }
+    .code-class { color: #FBBF24; font-weight: 600; }
+
+    /* Footer */
+    .footer-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      color: #64748B;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .author-badge {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #CBD5E1;
+    }
+
+    .swipe-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #38BDF8;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SLIDE 1: COVER -->
+  <div class="slide" id="slide-1">
+    <div class="header-bar">
+      <span class="tag-badge">Playwright + Pytest · Engineering Notes</span>
+      <span class="slide-num">01 / 05</span>
+    </div>
+
+    <div class="content-area">
+      <h1>
+        Stop mixing locators, workflows and assertions.<br>
+        <span class="gradient-text">A 3-layer architecture that actually scales.</span>
+      </h1>
+      <p class="subtitle">
+        Why textbook Page Object Model breaks as your application grows—and how separating UI from business logic keeps test suites maintainable.
+      </p>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 10px;">
+        <div class="card card-red">
+          <div class="card-title">The Common Approach (Mixed Code)</div>
+          <ul style="color: #CBD5E1; font-size: 16px; line-height: 1.8; padding-left: 20px;">
+            <li>Locators, clicks, and logic in one file</li>
+            <li>Assertions buried inside page methods</li>
+            <li>One frontend change breaks 15 tests</li>
+            <li>Hard to reuse for negative test cases</li>
+          </ul>
+        </div>
+
+        <div class="card card-green">
+          <div class="card-title">The 3-Layer Architecture</div>
+          <ul style="color: #CBD5E1; font-size: 16px; line-height: 1.8; padding-left: 20px;">
+            <li><strong>Pages Layer:</strong> Only UI & selectors</li>
+            <li><strong>Workflows Layer:</strong> Business journeys</li>
+            <li><strong>Tests Layer:</strong> Scenarios & assertions</li>
+            <li>Clean, modular, and easy to maintain</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bar">
+      <div class="author-badge">
+        <span style="display:inline-block; width:10px; height:10px; border-radius:50%; background:#10B981;"></span>
+        <strong>Adarsh Tiwari</strong> · SDET & QA Automation
+      </div>
+      <div class="swipe-pill">Swipe Next →</div>
+    </div>
+  </div>
+
+  <!-- SLIDE 2: THE PROBLEM -->
+  <div class="slide" id="slide-2">
+    <div class="header-bar">
+      <span class="tag-badge">What Goes Wrong</span>
+      <span class="slide-num">02 / 05</span>
+    </div>
+
+    <div class="content-area">
+      <h1>
+        Why standard POM gets messy in real projects
+      </h1>
+      <p class="subtitle">
+        Most tutorials teach you to put everything in a single Page class. Here is what happens when the app gets bigger:
+      </p>
+
+      <div style="display: flex; flex-direction: column; gap: 20px;">
+        <div class="card">
+          <div class="card-title" style="color: #F87171;">
+            1. High Coupling Between UI and Business Logic
+          </div>
+          <p style="color: #94A3B8; font-size: 16px; line-height: 1.6;">
+            When a button selector changes, you edit the page class. When product changes the business flow, you edit the <span style="color:#FFF;">exact same file</span>. It quickly becomes a fragile codebase where changes create unexpected breakages.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-title" style="color: #FBBF24;">
+            2. The Assertion Trap
+          </div>
+          <p style="color: #94A3B8; font-size: 16px; line-height: 1.6;">
+            If you put assertions inside page methods (like checking if a dashboard appeared), you cannot reuse that same method for testing <em>invalid credentials</em> without writing duplicate helpers.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-title" style="color: #818CF8;">
+            3. Multi-Page Journeys Have No Clear Home
+          </div>
+          <p style="color: #94A3B8; font-size: 16px; line-height: 1.6;">
+            Real enterprise flows (like onboarding an employee, generating payroll, and verifying an email) cross 3 or 4 pages. Forcing all of that into one page class breaks modularity.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bar">
+      <div class="author-badge">
+        <strong>Takeaway:</strong> Pages interact. Workflows orchestrate. Tests validate.
+      </div>
+      <div class="swipe-pill">Swipe Next →</div>
+    </div>
+  </div>
+
+  <!-- SLIDE 3: THE ARCHITECTURE -->
+  <div class="slide" id="slide-3">
+    <div class="header-bar">
+      <span class="tag-badge">The 3 Layers</span>
+      <span class="slide-num">03 / 05</span>
+    </div>
+
+    <div class="content-area">
+      <h1>
+        Separating UI, Workflows & Tests
+      </h1>
+      <p class="subtitle">
+        Giving each layer one clear responsibility keeps changes isolated and clean:
+      </p>
+
+      <div style="display: flex; flex-direction: column; gap: 18px;">
+        <!-- Layer 1 -->
+        <div class="card card-blue">
+          <div class="card-title">
+            <span style="background:#38BDF8; color:#0B0F19; border-radius:6px; padding:2px 8px; font-size:13px; font-weight:700;">LAYER 1</span>
+            Pages Layer (UI & Locators)
+          </div>
+          <p style="color: #CBD5E1; font-size: 15.5px; margin-bottom: 6px;">
+            <strong>Job:</strong> Holds selectors and raw actions (<code style="color:#38BDF8;">click</code>, <code style="color:#38BDF8;">fill</code>, <code style="color:#38BDF8;">select_option</code>).
+          </p>
+          <p style="color: #94A3B8; font-size: 14.5px;">
+            If a frontend ID or CSS class changes, you update only this file. Tests and workflows don't change.
+          </p>
+        </div>
+
+        <!-- Layer 2 -->
+        <div class="card card-purple">
+          <div class="card-title">
+            <span style="background:#C084FC; color:#0B0F19; border-radius:6px; padding:2px 8px; font-size:13px; font-weight:700;">LAYER 2</span>
+            Workflows Layer (Business Logic)
+          </div>
+          <p style="color: #CBD5E1; font-size: 15.5px; margin-bottom: 6px;">
+            <strong>Job:</strong> Chains page actions into reusable user journeys (<code style="color:#C084FC;">login_as_admin()</code>, <code style="color:#C084FC;">create_employee()</code>).
+          </p>
+          <p style="color: #94A3B8; font-size: 14.5px;">
+            If a business step changes, update the workflow. Your page locators stay untouched.
+          </p>
+        </div>
+
+        <!-- Layer 3 -->
+        <div class="card card-green">
+          <div class="card-title">
+            <span style="background:#34D399; color:#0B0F19; border-radius:6px; padding:2px 8px; font-size:13px; font-weight:700;">LAYER 3</span>
+            Tests Layer (Validation)
+          </div>
+          <p style="color: #CBD5E1; font-size: 15.5px; margin-bottom: 6px;">
+            <strong>Job:</strong> Test scenarios, test data fixtures, and assertions (<code style="color:#34D399;">assert ...is_visible()</code>).
+          </p>
+          <p style="color: #94A3B8; font-size: 14.5px;">
+            Tests stay short, readable, and focused purely on whether the outcome was correct.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bar">
+      <div class="author-badge">
+        <strong>Flow:</strong> Tests call Workflows → Workflows use Pages → Pages drive Browser
+      </div>
+      <div class="swipe-pill">Swipe Next →</div>
+    </div>
+  </div>
+
+  <!-- SLIDE 4: CODE IMPLEMENTATION -->
+  <div class="slide" id="slide-4">
+    <div class="header-bar">
+      <span class="tag-badge">Code Example</span>
+      <span class="slide-num">04 / 05</span>
+    </div>
+
+    <div class="content-area">
+      <h1>
+        How the code looks in Python
+      </h1>
+      <p class="subtitle" style="margin-bottom: 16px;">
+        Notice how simple each class remains:
+      </p>
+
+      <!-- Code 1 -->
+      <div style="margin-bottom: 12px;">
+        <div style="font-size: 14.5px; font-weight: 700; color: #38BDF8; margin-bottom: 3px;">1. Page Class (pages/login_page.py)</div>
+        <div class="code-box">
+<span class="code-keyword">class</span> <span class="code-class">LoginPage</span>:
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(self, page):
+        self.page = page
+        self.username = page.locator(<span class="code-str">"input[name='username']"</span>)
+        self.password = page.locator(<span class="code-str">"input[name='password']"</span>)
+        self.submit_btn = page.locator(<span class="code-str">"button[type='submit']"</span>)
+
+    <span class="code-keyword">def</span> <span class="code-func">enter_credentials</span>(self, user, pwd):
+        self.username.fill(user)
+        self.password.fill(pwd)
+        self.submit_btn.click()</div>
+      </div>
+
+      <!-- Code 2 -->
+      <div style="margin-bottom: 12px;">
+        <div style="font-size: 14.5px; font-weight: 700; color: #C084FC; margin-bottom: 3px;">2. Workflow Class (workflows/auth_workflow.py)</div>
+        <div class="code-box">
+<span class="code-keyword">class</span> <span class="code-class">AuthWorkflow</span>:
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(self, page):
+        self.login_page = LoginPage(page)
+
+    <span class="code-keyword">def</span> <span class="code-func">login_as_user</span>(self, user):
+        self.login_page.page.goto(<span class="code-str">"/auth/login"</span>)
+        self.login_page.enter_credentials(user.name, user.pwd)</div>
+      </div>
+
+      <!-- Code 3 -->
+      <div>
+        <div style="font-size: 14.5px; font-weight: 700; color: #34D399; margin-bottom: 3px;">3. Test Function (tests/test_auth.py)</div>
+        <div class="code-box">
+<span class="code-keyword">def</span> <span class="code-func">test_valid_admin_login</span>(page, admin_user):
+    AuthWorkflow(page).login_as_user(admin_user)
+    <span class="code-keyword">assert</span> page.locator(<span class="code-str">"[data-testid='dashboard-welcome']"</span>).is_visible()</div>
+      </div>
+    </div>
+
+    <div class="footer-bar">
+      <div class="author-badge">
+        <strong>Result:</strong> Zero assertions in pages. Zero selectors in tests.
+      </div>
+      <div class="swipe-pill">Swipe Next →</div>
+    </div>
+  </div>
+
+  <!-- SLIDE 5: FOLDER TREE & MENTORSHIP -->
+  <div class="slide" id="slide-5">
+    <div class="header-bar">
+      <span class="tag-badge">Project Setup</span>
+      <span class="slide-num">05 / 05</span>
+    </div>
+
+    <div class="content-area">
+      <h1>
+        Folder structure & practical advice
+      </h1>
+      
+      <div style="display: grid; grid-template-columns: 1fr 1.1fr; gap: 24px; margin-top: 10px;">
+        <div class="code-box" style="font-size: 13.5px; line-height: 1.55; margin-top:0;">
+<span class="code-comment"># Project Directory</span>
+my_playwright_suite/
+├── <span class="code-keyword">pages/</span>              <span class="code-comment"># Pure UI Locators</span>
+│   ├── login_page.py
+│   ├── dashboard_page.py
+│   └── employee_page.py
+├── <span class="code-keyword">workflows/</span>          <span class="code-comment"># Business Journeys</span>
+│   ├── auth_workflow.py
+│   └── payroll_workflow.py
+├── <span class="code-keyword">tests/</span>              <span class="code-comment"># Test Scenarios</span>
+│   ├── test_auth.py
+│   └── test_payroll.py
+├── <span class="code-keyword">fixtures/</span>           <span class="code-comment"># Pytest fixtures</span>
+└── <span class="code-keyword">test_data/</span>          <span class="code-comment"># Payloads & Mocks</span>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+          <div class="card card-blue" style="padding: 18px 20px;">
+            <div class="card-title" style="font-size: 16.5px; margin-bottom: 6px;">
+              A note for MCA & engineering students
+            </div>
+            <p style="color: #CBD5E1; font-size: 15px; line-height: 1.5;">
+              In SDET technical interviews, interviewers don't just care if you can find locators. They want to see if you can organize an automation project that a whole team can maintain without it breaking every week.
+            </p>
+          </div>
+
+          <div class="card card-green" style="padding: 18px 20px;">
+            <div class="card-title" style="font-size: 16.5px; margin-bottom: 6px;">
+              Setting up your own framework?
+            </div>
+            <p style="color: #CBD5E1; font-size: 15px; line-height: 1.5;">
+              I’ve put this Playwright + Pytest structure with GitHub Actions CI/CD in a clean sample GitHub repo.
+            </p>
+            <p style="color: #34D399; font-weight: 600; font-size: 15px; margin-top: 8px;">
+              If you’d like the link or have questions about organizing your tests, feel free to drop a comment or connect.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bar">
+      <div class="author-badge">
+        <span style="display:inline-block; width:10px; height:10px; border-radius:50%; background:#10B981;"></span>
+        <strong>Adarsh Tiwari</strong> · QA Engineer & SDET
+      </div>
+      <div class="swipe-pill" style="color:#10B981;">Connect & Share 💬</div>
+    </div>
+  </div>
+
+</body>
+</html>
